@@ -1,0 +1,17 @@
+<nav>
+	<div>
+		<a href="/">NTU-CALAB</a>
+	</div>
+
+	<div>
+		<ul>
+		{% for item in site.data.nav %}
+			<li>
+				<a href="{{ item.link }}" {% if page.url == item .link %}style="color: red;"{% endif %}>
+					{{ item.name }}
+				</a>
+			</li>
+		{% endfor %}
+		</ul>
+	</div>
+</nav>

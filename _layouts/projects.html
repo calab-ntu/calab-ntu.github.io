@@ -1,0 +1,22 @@
+---
+layout: base
+---
+<div>
+	{% for proj in site.data.projects %}
+	<div>
+		{% if proj['logo'] %}
+		<img src='{{ proj.logo}}'>
+		{% endif %}
+	</div>
+	
+	<div>
+	<h1>
+		{{ proj._id }}
+	</h1>
+	<p>
+		{{ proj.description }}
+	</p>
+
+	</div>
+	{% endfor %}
+</div>

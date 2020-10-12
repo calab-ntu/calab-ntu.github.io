@@ -1,0 +1,13 @@
+- _id: project1
+  status: active
+  description: project example
+#  logo:
+  other:
+  - sub project1
+  - sub project2
+  repo: /
+  team:
+  - beginyear: 2020
+    beginmonth: October
+    name: Tseng, Wei-Hsuan
+    position: staff
