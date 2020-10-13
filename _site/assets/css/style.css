@@ -1,0 +1,82 @@
+/*================================
+       OVER ALL SETTINGS
+================================*/
+
+body {
+	overflow-x: hidden;
+	margin: 0;
+	}
+
+/*================================
+             NAV
+================================*/
+
+.navbar {
+	text-transform: uppercase;
+	background-color:#790000;
+	height: 40px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: flex;
+	margin: 0;
+	}
+
+.navbar a {
+	color: #FEBE90;
+	text-align: center;
+	text-decoration: none;
+	padding: 13px 16px;
+	display: block;
+	}
+
+.navbar-right {
+	float: right;
+	position: fixed;
+	right: 0;
+	}
+
+.navbar-left {
+	float: left;
+	
+	}
+
+.navbar-opts {
+	list-style-type: none;
+	margin: 0;
+	padding; 0;
+	left: 0;
+	}
+
+.navbar-opts ul {
+	float: right;
+	}
+
+.navbar-opts li {
+	display: inline;
+	float: left;
+	}
+
+/*================================
+          TITLE
+================================*/
+
+.title {
+	width:100%;
+	height: 100px;
+	text-align: center;
+	background-color: #622900;
+	display: block;
+	}
+
+.title h1{
+	color: #FFFFFF;
+	padding: 40px;
+	text-transform: uppercase;
+	}
+
+/*================================
+              FOOTER
+================================*/
+
+
