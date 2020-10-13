@@ -2,9 +2,21 @@
        OVER ALL SETTINGS
 ================================*/
 
-body {
-	overflow-x: hidden;
-	margin: 0;
+.list-container {
+	float: center;
+	width: 70%;
+	}
+
+.list-container img {
+	height: 200px;
+	width: 200px;
+	}
+
+.list-item_left {
+	float: left;
+	}
+
+.list-item_right {
 	}
 
 /*================================
@@ -79,4 +91,12 @@ body {
               FOOTER
 ================================*/
 
-
+.footer {
+	position: fixed;
+	bottom: 0;
+	padding: 10px;
+	color: #FFFFFF;
+	background-color: #000000;
+	height: 100px;
+	width: 100%;
+	}

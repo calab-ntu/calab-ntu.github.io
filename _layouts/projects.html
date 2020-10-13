@@ -1,22 +1,28 @@
 ---
 layout: base
 ---
-<div>
+<div class="list-container container">
 	{% for proj in site.data.projects %}
-	<div>
-		{% if proj['logo'] %}
-		<img src='{{ proj.logo}}'>
-		{% endif %}
-	</div>
-	
-	<div>
-	<h1>
-		{{ proj._id }}
-	</h1>
-	<p>
-		{{ proj.description }}
-	</p>
+	<div class="row">
+		<div class="col-md-5">
+		<div class="list-item_left">
+			{% if proj['logo'] %}
+			<img src='{{ proj.logo}}' alt="Project icon">
+			{% endif %}
+		</div>
+		</div>
+		
+		<div class="col-md-8">
+		<div class="list-item_right">
+			<h2>
+				{{ proj._id }}
+			</h2>
+			<p>
+				{{ proj.description }}
+			</p>
 
+		</div>
+		</div>
 	</div>
 	{% endfor %}
 </div>

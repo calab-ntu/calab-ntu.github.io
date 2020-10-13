@@ -1,7 +1,7 @@
 - _id: project1
   status: active
   description: project example
-#  logo:
+  logo: /assets/images/projects/project1.jpg
   other:
   - sub project1
   - sub project2
