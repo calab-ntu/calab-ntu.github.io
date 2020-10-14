@@ -1,4 +1,28 @@
 ---
 layout: base
 ---
+<div class="container list-container">
+	{% for member in site.data.members %}
+	<div class="row">
+		<div class="col-sm-2 offset-sm-3">
+			{% if member['picture'] %}
+			<img src="{{member.picture}}">
+			{% endif %}
+		</div>
 
+		<div class="col-sm-4">
+			<h3>
+				{{ member.name }}
+			</h3>
+
+			<p>
+				{{ member.position }}
+			</p>
+
+			<p>
+				{{ member.begin_year }} ~ {{ member.end_year }}
+			</p>
+		</div>
+	</div>
+	{% endfor %}
+</div>

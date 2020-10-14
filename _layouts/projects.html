@@ -4,7 +4,7 @@ layout: base
 <div class="list-container container">
 	{% for proj in site.data.projects %}
 	<div class="row">
-		<div class="col-md-5">
+		<div class="col-sm-2 offset-sm-3">
 		<div class="list-item_left">
 			{% if proj['logo'] %}
 			<img src='{{ proj.logo}}' alt="Project icon">
@@ -12,7 +12,7 @@ layout: base
 		</div>
 		</div>
 		
-		<div class="col-md-8">
+		<div class="col-sm-4">
 		<div class="list-item_right">
 			<h2>
 				{{ proj._id }}

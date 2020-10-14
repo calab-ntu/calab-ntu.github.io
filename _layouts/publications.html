@@ -1,3 +1,23 @@
 ---
 layout: base
 ---
+
+<div class="container">
+	{%for pub in site.data.publications %}
+	<div class="row">
+		<div class="col-sm-6 offset-sm-4">
+			<h3>
+				{{ pub.title }}
+			</h3>
+
+			<p>
+				{{ pub.dois }}
+			</p>
+
+			<p>
+				{{ pub.axis }}
+			</p>
+		</div>
+	</div>
+	{% endfor %}
+</div>

@@ -3,11 +3,21 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>Projects - NTU - CALAB</title>
 	
 	<!-- BostStrapGrid -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	
+
 	<!-- Custom CSS -->
 	<link href="/assets/css/style.css" rel="stylesheet">
 </head>
@@ -16,13 +26,13 @@
 <body>
 <nav class="navbar">
 <div class="container">
-	<div class="navbar-left">
+	<div class="navbar-header">
 		<a href="/" >
 			NTU-CALAB
 		</a>
 	</div>
 
-	<div class="navbar-right">
+	<div class="navbar-right navbar-nav">
 		<ul class="navbar-opts">
 		
 			<li>
@@ -49,10 +59,12 @@
 </nav>
 
 <header>
-<div class="title">
-	<h1>
-		Projects
-	</h1>
+<div class="container-fluid">
+	<div class="row title">
+		<h1>
+			Projects
+		</h1>
+	</div>
 </div>
 </header>
 
@@ -60,7 +72,7 @@
 <div class="list-container container">
 	
 	<div class="row">
-		<div class="col-md-5">
+		<div class="col-sm-2 offset-sm-3">
 		<div class="list-item_left">
 			
 			<img src='/assets/images/projects/project1.jpg' alt="Project icon">
@@ -68,7 +80,7 @@
 		</div>
 		</div>
 		
-		<div class="col-md-8">
+		<div class="col-sm-4">
 		<div class="list-item_right">
 			<h2>
 				project1
@@ -84,11 +96,19 @@
 </div>
 
 
-<div class="footer">
-<h6>FOLLOW:</h6>
+<footer>
+<div class="container-fluid footer">
+	<div class="row">
+		<div class="col-sm-3 offset-sm-1">
+			<h6>FOLLOW:</h6>
 
-<p>2020 NTU-CALAB</p>
+			<p>©2020 NTU-CALAB</p>
+		</div>
+
+
+	</div>
 </div>
+</footer>
 
 </body>
 </html>
