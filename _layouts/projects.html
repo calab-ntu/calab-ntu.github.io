@@ -14,13 +14,15 @@ layout: base
 		
 		<div class="col-sm-4">
 		<div class="list-item_right">
-			<h2>
-				{{ proj._id }}
-			</h2>
-			<p>
-				{{ proj.description }}
-			</p>
+			<h2>{{ proj._id }}</h2>
 
+			<p>{{ proj.description }}</p>
+
+			<h4>Team</h4>
+			{% for person in proj.team  %}
+			<p>{{ person.name }}, {{ person.begin_month }} {{ person.begin_year }} ~ {{ person.end_month }} {{ person.end_year }}</p>
+			{% endfor %}
+			
 		</div>
 		</div>
 	</div>

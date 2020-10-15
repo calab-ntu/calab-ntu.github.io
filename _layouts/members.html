@@ -11,17 +11,15 @@ layout: base
 		</div>
 
 		<div class="col-sm-4">
-			<h3>
-				{{ member.name }}
-			</h3>
+			<h3>{{ member.name }}</h3>
 
-			<p>
-				{{ member.position }}
-			</p>
+			<p>{{ member.position }}</p>
 
-			<p>
-				{{ member.begin_year }} ~ {{ member.end_year }}
-			</p>
+			{% if member.homepage %}
+			<p><a href="{{ member.homepage }}">Homepage</a></p>
+			{% endif %}
+
+			<p>{{ member.begin_year }} ~ {{ member.end_year }}</p>
 		</div>
 	</div>
 	{% endfor %}

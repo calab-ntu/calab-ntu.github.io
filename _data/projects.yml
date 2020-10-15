@@ -7,7 +7,7 @@
   - sub project2
   repo: /
   team:
-  - beginyear: 2020
-    beginmonth: October
+  - begin_year: 2020
+    begin_month: October
     name: Tseng, Wei-Hsuan
     position: staff
