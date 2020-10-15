@@ -4,13 +4,13 @@ layout: base
 <div class="container list-container">
 	{% for member in site.data.members %}
 	<div class="row">
-		<div class="col-sm-2 offset-sm-3">
+		<div class="col-md-2 offset-md-2">
 			{% if member['picture'] %}
 			<img src="{{member.picture}}">
 			{% endif %}
 		</div>
 
-		<div class="col-sm-4">
+		<div class="col-md-4 offset-md-1">
 			<h3>{{ member.name }}</h3>
 
 			<p>{{ member.position }}</p>
