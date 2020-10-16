@@ -5,17 +5,25 @@ layout: base
 <div class="container">
 	{%for pub in site.data.publications %}
 	<div class="row">
-		<div class="col-sm-6 offset-sm-4">
+		<div class="col-sm-6 offset-sm-3">
 			<h3>
+				{% if pub.url %}
+				<a href="{{pub.url}}">
+					{{ pub.title }}
+				</a>
+				{% else %}
 				{{ pub.title }}
+				{% endif %}
 			</h3>
 
 			<p>
-				{{ pub.dois }}
+				{% for author in pub.authors %}
+				{{ author }}
+				{% endfor %}
 			</p>
 
 			<p>
-				{{ pub.axis }}
+				{{ pub.journal }} ({{ pub.month }}-{{ pub.year }})
 			</p>
 		</div>
 	</div>
