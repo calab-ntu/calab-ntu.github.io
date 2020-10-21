@@ -23,33 +23,68 @@
 .navbar {
 	text-transform: uppercase;
 	background-color:#790000;
-	height: 40px;
+	height: 50px;
 	}
+
 
 .navbar a {
 	color: #FEBE90;
 	text-align: center;
 	text-decoration: none;
-	padding: 0px 13px;
+	padding: 0px 14px;
 	display: block;
 	}
 
-.navbar-opts {
-	list-style-type: none;
-	margin: 0;
-	padding; 0;
-	left: 0;
+@media(max-width:700px) {
+	.navbar {
+		height: 110px;
+		}
+	
+	.navbar-head {
+		text-align: center;
+		width: 100%;
+		}
+
+	.navbar-opts {	
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		}
+	
+	.navbar-opts ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		}
+
+	.navbar-opt li {
+		display: block;
+		}
 	}
 
-.navbar-opts ul {
-	float: right;
-	}
+@media(min-width:700px) {
+	.navbar-head {
+		text-align: center;
+		float: left;
+		}
+		
+	.navbar-opts {
+		list-style-type: none;
+		margin: 0;
+		padding; 0;
+		float: right;
+		}
 
-.navbar-opts li {
-	display: inline;
-	float: left;
-	}
+	.navbar-opts ul {
+		text-align: center;
+		}
 
+	.navbar-opts li {
+		display: inline;
+		float: left;
+		}
+	}
 /*================================
           TITLE
 ================================*/
@@ -76,3 +111,4 @@
 	background-color: #000000;
 	height: 100px;
 	}
+
