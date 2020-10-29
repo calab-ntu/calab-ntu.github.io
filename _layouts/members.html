@@ -1,26 +1,77 @@
 ---
 layout: base
 ---
-<div class="container list-container">
-	{% for member in site.data.members %}
+
+{% assign designations = "Profesor, Research Asistant, Ph.D, Master, Bachelor" | split: ", "%}
+
+<div class="container-fluid list-container">
 	<div class="row">
-		<div class="col-md-2 offset-md-2">
+	<div class="col-lg-2">
+		<ul style="list-style: none;">
+			{% for des in designations %}
+			<li><a href="#{{des}}">{{des}}</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+
+	<div class="col-lg-8">
+	<div class="container-fluid">
+	{% for des in designations %}
+	<div>
+		<h3 id={{des}}>{{des}}</h3>	
+	</div>
+	{% assign members = site.data.members | where: "position",des %}
+	{% for member in members %}
+	<div class="row">
+		<div class="col-md-2 offset-md-1">
 			{% if member['picture'] %}
 			<img src="{{member.picture}}">
 			{% endif %}
 		</div>
 
-		<div class="col-md-4 offset-md-1">
-			<h3>{{ member.name }}</h3>
-
-			<p>{{ member.position }}</p>
+		<div class="col-md-8 offset-md-1">
+			<h4>{{ member.name }}</h4>
+			<ul>
+			<li>{{ member.position }}</li>
 
 			{% if member.homepage %}
-			<p><a href="{{ member.homepage }}">Homepage</a></p>
+			<li><a href="{{ member.homepage }}">Homepage</a></li>
 			{% endif %}
 
-			<p>{{ member.begin_year }} ~ {{ member.end_year }}</p>
+			<li>
+				Intro:<br>
+				{{ member.bio }}
+			</li>
+
+			{% if member.email %}
+			<li>
+				e-mail: <a href="{{member.email}}">{{ member.email}}</a>
+			</li>
+			{% endif %}
+			
+			{% if member.end_year %}
+			<li>{{ member.begin_year }} ~ {{ member.end_year }}</li>
+			{% endif %}
+			
+			{% if member.project %}
+			<li>
+				Projects: 
+				{% for p in member.project %}
+					{% if p.url %}
+						<a href="{{p.url}}">{{ p.name }}</a>
+					{% else %}
+						{{ p.name }}
+					{% endif %}
+				{% endfor %}
+			</li>
+			{% endif %}
+			</ul>
 		</div>
 	</div>
 	{% endfor %}
+	<hr>
+	{% endfor %}
+	</div>
+	</div>
+	</div>
 </div>

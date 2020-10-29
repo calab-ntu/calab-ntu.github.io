@@ -1,6 +1,18 @@
 ---
 layout: base
 ---
+<!--
+for y in years
+	pubs = filt pub with y
+	h2 > y
+	for p in pubs
+		p
+	if not last y
+		horizontal line
+
+{{ site.data.publications | sort: "year" }}
+
+-->
 
 <div class="container">
 	{%for pub in site.data.publications %}
@@ -29,3 +41,4 @@ layout: base
 	</div>
 	{% endfor %}
 </div>
+
