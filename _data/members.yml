@@ -1,9 +1,9 @@
 - name: Tseng, Wei-Hsuan
-  position: Research Asistant
-  begin_year: 2020
+  position: Research Assistant
+  begin_year_month: 2020
   email: xuanweishan@gmail.com
   bio: Wei-Hsuan is a research asistant at NTU from April 2020. Helping build GPU clusters and mentian the system.
   picture: /assets/images/members/xuanweishan.jpg
   project: 
     - name: eureka
-      url: github.com/calab-ntu/eureka/wiki
+      url: https://github.com/calab-ntu/eureka/wiki
