@@ -2,12 +2,12 @@
 layout: base
 ---
 
-{% assign designations = "Profesor, Research Assistant, Ph.D, Master, Bachelor" | split: ", "%}
+{% assign designations = "Professor, Assistant Professor, Research Assistant, Ph.D, Master, Bachelor" | split: ", "%}
 
 <div class="container-fluid list-container">
 	<div class="row">
-		<div class="col-lg-2">
-			<ul style="list-style: none;">
+		<div class="col-lg-2 nav-member">
+			<ul>
 			{% for des in designations %}
 				<li><a href="#{{des}}">{{des}}</a></li>
 			{% endfor %}

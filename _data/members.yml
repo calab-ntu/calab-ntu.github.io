@@ -1,9 +1,51 @@
-- name: Tseng, Wei-Hsuan
+- name: 曾煒軒 (Tseng, Wei-Hsuan)
   position: Research Assistant
-  begin_year_month: 2020
+  begin_year_month: 2020-04
   email: xuanweishan@gmail.com
   bio: Wei-Hsuan is a research asistant at NTU from April 2020. Helping build GPU clusters and mentian the system.
   picture: /assets/images/members/xuanweishan.jpg
   project: 
     - name: eureka
       url: https://github.com/calab-ntu/eureka/wiki
+
+- name: 胡德邦 (Tak Pong Woo)
+  position: Assistant Professor
+  email: bonwood@phys.ntu.edu.tw
+  picture: /assets/images/members/bonwood.jpg
+
+- name: 許藝薰 (Yi-Hsiung Hsu, a.k.a Arthur Hsu)
+  position: Master
+  begin_year_month: 2018-09
+  email: arthurhsu3388@gmail.com
+  bio: I earned Bachelor of Science, department of physics at National Taiwan University at 2018. I'm now pursuing Master degree at National Taiwan University. My project is analyzing linear perturbations in universe of multi-component ultralight axion. We apply different approximations to alleviate the required time of calculating stiff evolution equations. These calculations are further promoted to multi-component universe.
+  project:
+    - name: Evolution of perturbations and spectra in multi-component ultralight axionic universes
+  picture: /assets/images/members/arthurHsu.jpg
+
+- name : 蘇冠銘 (Guna-Ming Su)
+  position : Ph.D
+  begin_year_month : 2020-08
+  email : d07222009@ntu.edu.tw
+  bio : Hello, I am Guan-Ming Su. I was originally working on experimental condensed matter physics during my master and first two years Ph.D, but later found simulation and programming so interesting that I decided to switch to the current field. Now I am in the learning phase of cosmology simulation, especially about the large scale structure, and hope to catch on this cutting edge science with tons of unsolved problems leaving us to explore :)  
+  picture : /assets/images/members/koalakawaii.jpg
+  project : 
+    - name: re-construct Milky-Way scale dark matter halo
+
+- name : 曾柏勳（Po-Hsun Tseng）
+  position : Ph.D
+  begin_year_month : 2016
+  email : zengbs@gmail.com
+  bio : I am interesting numerical analysis, data analysis, data visualization, and developing codes for dynamics simulation in astrophysical problems.
+  picture : 
+  project : 
+    - name: relativistic magnetohydrodynamics, AGN, and high energy physics.
+
+- name: Tzihong Chiueh
+  position: Professor
+  email: chiuehth@phys.ntu.edu.tw
+  bio : Tzihong Chiueh was born in Hsi-Tser (汐止), Taipei County, Nov. 29, 1955.  He obtained BS/Physics, MS/Physics and PhD/Physics in 1978, 1980 and 1985 from NTU, UCLA and UT Austin, respectively.  During 1985 to 1989, he worked as a postdoc fellow in University of Colorado in Boulder.  In 1989, he joined Physics Department, National Central University as a faculty member, and in 1992 he became a faculty member of the then newly formed Institute of Astronomy, National Central University, also serving as the Director.  Since 1998, he joined Physics Department NTU as a faculty member.  He also holds a joint appointment with Academia Sinica Institute of Astronomy and Astrophysics (ASIAA) ever since 1993.  In 1997-1999, he serves in National Science Council as the Co-Chairman of the Physics Research Review Committee.
+
+      Tzihong Chiueh’s research interests include Theoretical Astrophysics, Computational Astrophysics and Astrophysics instrumentations.  He was awarded with the Outstanding Research Awards of National Science Council in 1991, 1994 and 2003, and was appointed as the NTU Distinguished Professor since 2007.
+  picture: 
+
+
