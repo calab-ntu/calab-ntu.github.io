@@ -1,10 +1,62 @@
-- title: Publication1
+- title: "Multiple Images and Flux Ratio Anomaly of Fuzzy Gravitational Lenses"
   authors:
-    - author1
-    - author2
-  journal: jij
+    - James H. H. Chan (詹弘旭)
+    - Hsi-Yu Schive (薛熙于)
+    - Shing-Kwong Wong (黃承光)
+    - Tzihong Chiueh (闕志鴻)
+    - Tom Broadhurst
+  journal: Phys. Rev. Lett.
   year: 2020
-  month: 1
-  url: https://www.google.com
-  dois: 123
-  axis: 321
+  month: 9
+  url: 
+  dois: https://doi.org/10.1103/PhysRevLett.125.111102
+  arxiv: 
+
+- title: "Testing the Prediction of Fuzzy Dark Matter Theory in the Milky Way Center"
+  authors:
+    - Zhi Li (李智)
+    - Juntai Shen (沈俊太)
+    - Hsi-Yu Schive (薛熙于)
+  journal:  The Astrophysical Journal
+  year: 2020
+  month: 2
+  url:
+  dois: https://doi.org/10.3847/1538-4357/ab6598
+  arxiv: 
+
+- title: "Soliton Random Walk and the Cluster-Stripping Problem in Ultralight Dark Matter"
+  authors: 
+    - Hsi-Yu Schive (薛熙于)
+    - Tzihong Chiueh (闕志鴻)
+    - Tom Broadhurst
+  journal: Phys. Rev. Lett.
+  year: 2020
+  month: 5
+  url:
+  dois: https://doi.org/10.1103/PhysRevLett.124.201301
+  arxiv: 
+
+- title: "GAMER: A GRAPHIC PROCESSING UNIT ACCELERATED ADAPTIVE-MESH-REFINEMENT CODE FOR ASTROPHYSICS"
+  authors:
+    - Hsi-Yu Schive
+    - Yu-Chih Tsai
+    - Tzihong Chiueh
+  journal: The Astrophysical Journal Supplement Series
+  year: 2010
+  month: 2
+  url:
+  dois: http://dx.doi.org/10.1088/0067-0049/186/2/457
+  arxiv: 
+
+- title: "Contrasting galaxy formation from quantum wave dark matter, ψDM, with ΛCDM, using Planck and Hubble data"
+  authors:
+    - Hsi-Yu Schive1
+    - Tzihong Chiueh1
+    - Tom Broadhurst
+    - Kuan-Wei Huang
+  journal: The Astrophysical Journal
+  year: 2016
+  month: 2
+  url:
+  dois: http://dx.doi.org/10.3847/0004-637X/818/1/89
+  arxiv: 

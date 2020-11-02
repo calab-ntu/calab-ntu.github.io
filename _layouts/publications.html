@@ -14,28 +14,33 @@ for y in years
 
 -->
 
-<div class="container">
+<div class="container-fluid">
 	{%for pub in site.data.publications %}
 	<div class="row">
 		<div class="col-sm-6 offset-sm-3">
-			<h3>
-				{% if pub.url %}
-				<a href="{{pub.url}}">
-					{{ pub.title }}
-				</a>
-				{% else %}
+			<h5>
 				{{ pub.title }}
-				{% endif %}
-			</h3>
+			</h5>
 
 			<p>
 				{% for author in pub.authors %}
 				{{ author }}
+				{% if forloop.last != true %}
+					;
+				{% endif %}
 				{% endfor %}
 			</p>
 
 			<p>
 				{{ pub.journal }} ({{ pub.month }}-{{ pub.year }})
+				<br>
+				{% if pub.dois %}
+					<a href="{{pub.dois}}">doi</a>
+				{% endif %}
+				  
+				{% if pub.arxiv %}
+					<a href="{{pub.arxiv}}">arxiv</a>
+				{% endif %}
 			</p>
 		</div>
 	</div>
