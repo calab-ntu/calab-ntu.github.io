@@ -6,11 +6,12 @@
     - Tzihong Chiueh (闕志鴻)
     - Tom Broadhurst
   journal: Phys. Rev. Lett.
+  volume: 125
+  page: 111102
   year: 2020
   month: 9
-  url: 
-  dois: https://doi.org/10.1103/PhysRevLett.125.111102
-  arxiv: 
+  doi: 10.1103/PhysRevLett.125.111102
+  arxiv: 2002.10473
 
 - title: "Testing the Prediction of Fuzzy Dark Matter Theory in the Milky Way Center"
   authors:
@@ -18,11 +19,12 @@
     - Juntai Shen (沈俊太)
     - Hsi-Yu Schive (薛熙于)
   journal:  The Astrophysical Journal
+  volume: 12
+  page: 889:88
   year: 2020
   month: 2
-  url:
-  dois: https://doi.org/10.3847/1538-4357/ab6598
-  arxiv: 
+  doi: 10.3847/1538-4357/ab6598
+  arxiv: 2001.00318 
 
 - title: "Soliton Random Walk and the Cluster-Stripping Problem in Ultralight Dark Matter"
   authors: 
@@ -30,33 +32,51 @@
     - Tzihong Chiueh (闕志鴻)
     - Tom Broadhurst
   journal: Phys. Rev. Lett.
+  volume: 124
+  page: 201301
   year: 2020
   month: 5
-  url:
-  dois: https://doi.org/10.1103/PhysRevLett.124.201301
-  arxiv: 
+  doi: 10.1103/PhysRevLett.124.201301
+  arxiv: 1912.09483 
 
-- title: "GAMER: A GRAPHIC PROCESSING UNIT ACCELERATED ADAPTIVE-MESH-REFINEMENT CODE FOR ASTROPHYSICS"
+- title: "Large Scale Dynamo in a Primordial Accretion Flow -- An Interpretation from Hydrodynamic Simulation"
   authors:
+    - Wei-Ting Liao
+    - Matthew Turk
     - Hsi-Yu Schive
-    - Yu-Chih Tsai
-    - Tzihong Chiueh
-  journal: The Astrophysical Journal Supplement Series
-  year: 2010
-  month: 2
-  url:
-  dois: http://dx.doi.org/10.1088/0067-0049/186/2/457
-  arxiv: 
+  journal: 
+  volume: 
+  page: 
+  year: 2019
+  month: 11
+  doi: 
+  arxiv: 1911.07898 
 
-- title: "Contrasting galaxy formation from quantum wave dark matter, ψDM, with ΛCDM, using Planck and Hubble data"
+- title: "Testing Extreme-axion Wave Dark Matter Using the BOSS Lyman-Alpha Forest Data"
   authors:
-    - Hsi-Yu Schive1
-    - Tzihong Chiueh1
-    - Tom Broadhurst
-    - Kuan-Wei Huang
-  journal: The Astrophysical Journal
-  year: 2016
-  month: 2
-  url:
-  dois: http://dx.doi.org/10.3847/0004-637X/818/1/89
-  arxiv: 
+    - Ka-Hou Leong
+    - Hsi-Yu Schive
+    - Ui-Han Zhang
+    - Tzihong Chiueh
+  journal: Monthly Notices of the Royal Astronomical Society
+  volume: 484
+  page: 4273–4286
+  year: 2019
+  month: 4
+  doi: 10.1093/mnras/stz271
+  arxiv: 1810.05930 
+
+- title: Dynamical Evidence of a Solitonic Core of 109M⊙ in the Milky Way
+  authors:
+    - Ivan De Martino, Tom Broadhurst
+    - S. -H. Henry Tye
+    - Tzihong Chiueh
+    - Hsi-Yu Schive
+  journal: Physics of the Dark Universe
+  volume: 28
+  page: 100503
+  year: 2020
+  month: 5
+  doi: 10.1016/j.dark.2020.100503
+  arxiv: 1807.08153 
+

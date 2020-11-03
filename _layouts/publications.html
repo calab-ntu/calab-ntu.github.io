@@ -26,20 +26,20 @@ for y in years
 				{% for author in pub.authors %}
 				{{ author }}
 				{% if forloop.last != true %}
-					;
+					,
 				{% endif %}
 				{% endfor %}
-			</p>
-
-			<p>
-				{{ pub.journal }} ({{ pub.month }}-{{ pub.year }})
+				
 				<br>
-				{% if pub.dois %}
-					<a href="{{pub.dois}}">doi</a>
+				{% if pub.doi %}
+				<a href="https://doi.org/{{pub.doi}}">{{ pub.journal }} {{ pub.volume}}, {{ pub.page}} ({{ pub.month }}-{{ pub.year }})</a>
+				{% else %}
+				{{ pub.journal }} {{ pub.volume}}, {{ pub.page}} ({{ pub.month }}-{{ pub.year }})
 				{% endif %}
+				<br>
 				  
 				{% if pub.arxiv %}
-					<a href="{{pub.arxiv}}">arxiv</a>
+					arxiv: <a href="https://arxiv.org/abs/{{pub.arxiv}}">{{pub.arxiv}}</a>
 				{% endif %}
 			</p>
 		</div>
