@@ -9,7 +9,6 @@
   volume: 125
   page: 111102
   year: 2020
-  month: 9
   doi: 10.1103/PhysRevLett.125.111102
   arxiv: 2002.10473
   yearMonth: 2020-09
@@ -23,7 +22,6 @@
   volume: 903
   page: 66
   year: 2020
-  month: 2
   doi: 10.3847/1538-4357/ab6598
   arxiv: 2001.00318
   yearMonth: 2020-02
@@ -37,7 +35,6 @@
   volume: 124
   page: 201301
   year: 2020
-  month: 5
   doi: 10.1103/PhysRevLett.124.201301
   arxiv: 1912.09483
   yearMonth: 2020-05
@@ -51,7 +48,6 @@
   volume: 
   page: 
   year: 2019
-  month: 11
   doi: 
   arxiv: 1911.07898
   yearMonth: 2019-11
@@ -66,7 +62,6 @@
   volume: 484
   page: 4273–4286
   year: 2019
-  month: 4
   doi: 10.1093/mnras/stz271
   arxiv: 1810.05930
   yearMonth: 2019-04
@@ -81,8 +76,222 @@
   volume: 28
   page: 100503
   year: 2020
-  month: 5
   doi: 10.1016/j.dark.2020.100503
   arxiv: 1807.08153
   yearMonth: 2020-05
 
+- title: "Cosmic Structure as the Quantum Interference of a Coherent Dark Wave"
+  authors:
+    - Hsi-Yu Schive
+    - Tzihong Chiueh
+    - Tom Broadhurst
+  journal: Nature Physics
+  volume: 10
+  page: 496-499
+  year: 2014
+  yearMonth: 2014-07
+  doi: 10.1038/nphys2996
+  arxiv: 1406.6586 
+
+- title: "Understanding the Core-halo Relation of Quantum Wave Dark Matter From 3D Simulations"
+  authors:
+    - Hsi-Yu Schive
+    - Ming-Hsuan Liao
+    - Tak-Pong Woo
+    - Shing-Kwong Wong
+    - Tzihong Chiueh
+    - Tom Broadhurst
+    - WY Pauchy Hwang
+  jounal: Phys. Rev. Lett.
+  volume: 113
+  page: 261302
+  year: 2014
+  yearMonth: 2014-12
+  doi: 10.1103/PhysRevLett.113.261302
+  arxiv: 1407.7762
+
+- title: "GAMER: a Graphic Processing Unit Accelerated Adaptive-mesh-refinement Code for Astrophysics"
+  authors:
+    - Hsi-Yu Schive
+    - Yu-Chih Tsai
+    - Tzihong Chiueh
+  jounal: Bull. Am. Astron. Soc.
+  volume: 186
+  page: 457-484
+  year: 2010
+  yearMonth: 2010-02
+  doi: 10.1088/0067-0049/186/2/457
+  arxiv: 0907.3390
+
+- title: "Contrasting Galaxy Formation from Quantum Wave Dark Matter, ψDM, with ΛCDM, Using Planck and Hubble Data"
+  authors: 
+    - Hsi-Yu Schive
+    - Tzihong Chiueh
+    - Tom Broadhurst
+    - Kuan-Wei Huang
+  jounal: Astrophys. J.
+  volume: 818
+  page: 89
+  year: 2016
+  yearMonth: 2016-02
+  doi: 10.3847/0004-637X/818/1/89
+  arxiv:
+
+- title: "Grackle: a Chemistry and Cooling Library for Astrophysics"
+  authors:
+    - Britton D Smith
+    - Greg L Bryan
+    - Simon CO Glover
+    - Nathan J Goldbaum
+    - Matthew J Turk
+    - John Regan
+    - John H Wise
+    - Hsi-Yu Schive
+    - Tom Abel
+    - Andrew Emerick
+    - Brian W O'Shea
+    - Peter Anninos
+    - Cameron B Hummels
+    - Sadegh Khochfar
+  journal: Mon. Not. R. Astron Soc.
+  volume: 466
+  page: 2217-2234
+  year: 2017
+  yearMonth: 2017-04
+  doi: 10.1093/mnras/stw3291
+  arxiv: 1610.09591 
+
+- title: "Complete Waveform Model for Compact Binaries on Eccentric Orbits"
+  authors: 
+    - EA Huerta
+    - Prayush Kumar
+    - Bhanu Agarwal
+    - Daniel George
+    - Hsi-Yu Schive
+    - Harald P Pfeiffer
+    - Roland Haas
+    - Wei Ren
+    - Tony Chu
+    - Michael Boyle
+    - Daniel A Hemberger
+    - Lawrence E Kidder
+    - Mark A Scheel
+    - Bela Szilagyi
+  journal: Phys. Rev. D
+  volume: 95
+  page: 024038
+  year: 2017
+  yearMonth: 2017-01
+  doi: 10.1103/PhysRevD.95.024038
+  arxiv: 1609.05933 
+
+- title: "Jeans Analysis for Dwarf Spheroidal Galaxies in Wave Dark Matter"
+  authors:
+    - Shu-Rong Chen
+    - Hsi-Yu Schive
+    - Tzihong Chiueh
+  journal: Mon. Not. R. Astron Soc.
+  volume: 468
+  page: 1338-1348
+  year: 2017
+  yearMonth: 2017-06
+  doi: 10.1093/mnras/stx449
+  arxiv: 1606.09030 
+
+- title: "Graphic-Card Cluster for Astrophysics (GraCCA)–Performance Tests"
+  authors: 
+    - Hsi-Yu Schive
+    - Chia-Hung Chien
+    - Shing-Kwong Wong
+    - Yu-Chih Tsai,
+    - Tzihong Chiueh
+  journal: New Astron.
+  volume: 13
+  page: 418-435
+  year: 2008
+  yearMonth: 2008-08
+  doi: 10.1016/j.newast.2007.12.005
+  arxiv: 0707.2991
+
+- title: "Recognizing Axionic Dark Matter by Compton and de Broglie Scale Modulation of Pulsar Timing"
+  authors: 
+    - Ivan De Martino
+    - Tom Broadhurst
+    - S-H Henry Tye
+    - Tzihong Chiueh
+    - Hsi-Yu Schive
+    - Ruth Lazkoz
+  journal: Phys. Rev. Lett.
+  volume: 119
+  page: 221103
+  year: 2017
+  yearMonth: 2017-11
+  doi: 10.1103/PhysRevLett.119.221103
+
+- title: "Directionally Unsplit Hydrodynamic Schemes with Hybrid MPI/OpenMP/GPU Parallelization in AMR"
+  authors: 
+    - Hsi-Yu Schive
+    - Ui-Han Zhang
+    - Tzihong Chiueh
+  journal: Int. J. High Perform. Comput. Appl.
+  volume: 26
+  page: 367-377
+  year: 2012
+  yearMonth: 2012-11
+  doi: 10.1177/1094342011428146
+  arxiv: 1103.3373
+
+- title: "Gamer-2: a GPU-Accelerated Adaptive Mesh Refinement Code – Accuracy, Performance, and Scalability"
+  author: 
+    - Hsi-Yu Schive
+    - John A ZuHone
+    - Nathan J Goldbaum
+    - Matthew J Turk
+    - Massimo Gaspari
+    - Chin-Yu Cheng
+  journal: Mon. Not. R. Astron Soc.
+  volume: 481
+  page: 4815-4840
+  year: 2018
+  yearMonth: 2018-12
+  doi: 10.1093/mnras/sty2586
+  arxiv: 1712.07070
+
+- title: "How do Stars Affect ψDM Haloes?"
+  authors: 
+    - James HH Chan
+    - Hsi-Yu Schive
+    - Tak-Pong Woo
+    - Tzihong Chiueh
+  journal: Mon. Not. R. Astron Soc.
+  volume: 478
+  page: 2686-2699
+  year: 2018
+  yearMonth: 2018-08
+  doi: 10.1093/mnras/sty900
+
+- title: "Self-Consistent Construction of Virialized Wave Dark Matter Halos"
+  author: 
+    - Shan-Chang Lin
+    - Hsi-Yu Schive
+    - Shing-Kwong Wong
+    - Tzihong Chiueh
+  journal: Phys. Rev. D
+  volume: 97
+  page: 103523
+  year: 2018
+  yearMonth: 2018-05
+  doi: 10.1103/PhysRevD.97.103523
+  arxiv: 1801.02320
+
+- title: "Halo abundance and assembly history with extreme-axion wave dark matter at z ≥ 4"
+  author: 
+    - Hsi-Yu Schive
+    - Tzihong Chiueh
+  journal: Mon. Not. R. Astron Soc.
+  volume: 473
+  page: L36-L40
+  year: 2018
+  yearMonth: 2018-01
+  doi: 10.1093/mnrasl/slx159
+  arxiv: 1706.03723 
