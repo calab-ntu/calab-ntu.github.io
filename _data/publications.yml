@@ -12,6 +12,7 @@
   month: 9
   doi: 10.1103/PhysRevLett.125.111102
   arxiv: 2002.10473
+  yearMonth: 2020-09
 
 - title: "Testing the Prediction of Fuzzy Dark Matter Theory in the Milky Way Center"
   authors:
@@ -24,7 +25,8 @@
   year: 2020
   month: 2
   doi: 10.3847/1538-4357/ab6598
-  arxiv: 2001.00318 
+  arxiv: 2001.00318
+  yearMonth: 2020-02
 
 - title: "Soliton Random Walk and the Cluster-Stripping Problem in Ultralight Dark Matter"
   authors: 
@@ -37,7 +39,8 @@
   year: 2020
   month: 5
   doi: 10.1103/PhysRevLett.124.201301
-  arxiv: 1912.09483 
+  arxiv: 1912.09483
+  yearMonth: 2020-05
 
 - title: "Large Scale Dynamo in a Primordial Accretion Flow -- An Interpretation from Hydrodynamic Simulation"
   authors:
@@ -50,7 +53,8 @@
   year: 2019
   month: 11
   doi: 
-  arxiv: 1911.07898 
+  arxiv: 1911.07898
+  yearMonth: 2019-11
 
 - title: "Testing Extreme-axion Wave Dark Matter Using the BOSS Lyman-Alpha Forest Data"
   authors:
@@ -64,7 +68,8 @@
   year: 2019
   month: 4
   doi: 10.1093/mnras/stz271
-  arxiv: 1810.05930 
+  arxiv: 1810.05930
+  yearMonth: 2019-04
 
 - title: Dynamical Evidence of a Solitonic Core of 109M⊙ in the Milky Way
   authors:
@@ -78,5 +83,6 @@
   year: 2020
   month: 5
   doi: 10.1016/j.dark.2020.100503
-  arxiv: 1807.08153 
+  arxiv: 1807.08153
+  yearMonth: 2020-05
 

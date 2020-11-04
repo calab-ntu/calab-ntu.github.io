@@ -14,8 +14,22 @@ for y in years
 
 -->
 
+
 <div class="container-fluid">
-	{%for pub in site.data.publications %}
+	{% assign publications = site.data.publications | sort: "yearMonth" | reverse %}
+	{% assign y = 0 %}
+
+	{% for pub in publications %}
+	<div class="row">
+		<div class="col-sm-6 offset-sm-3">
+			{% if y != pub.year %}
+			<br>
+			<h3 id="year_{{ pub.year }}">{{ pub.year }}</h3>
+			<hr>
+			{% assign y = pub.year %}
+			{% endif %}
+		</div>
+	</div>
 	<div class="row">
 		<div class="col-sm-6 offset-sm-3">
 			<h5>
