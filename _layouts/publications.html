@@ -1,19 +1,6 @@
 ---
 layout: base
 ---
-<!--
-for y in years
-	pubs = filt pub with y
-	h2 > y
-	for p in pubs
-		p
-	if not last y
-		horizontal line
-
-{{ site.data.publications | sort: "year" }}
-
--->
-
 
 <div class="container-fluid">
 	{% assign publications = site.data.publications | sort: "yearMonth" | reverse %}
@@ -46,14 +33,14 @@ for y in years
 				
 				<br>
 				{% if pub.doi %}
-				<a href="https://doi.org/{{pub.doi}}">{{ pub.journal }} {{ pub.volume}}, {{ pub.page}} ({{ pub.month }}-{{ pub.year }})</a>
+				<a href="https://doi.org/{{pub.doi}}">{{ pub.journal }} {{ pub.volume}}, {{ pub.page}} ({{ pub.year }})</a>
 				{% else %}
-				{{ pub.journal }} {{ pub.volume}}, {{ pub.page}} ({{ pub.month }}-{{ pub.year }})
+				{{ pub.journal }} {{ pub.volume}}, {{ pub.page}} ({{ pub.year }})
 				{% endif %}
 				<br>
 				  
 				{% if pub.arxiv %}
-					arxiv: <a href="https://arxiv.org/abs/{{pub.arxiv}}">{{pub.arxiv}}</a>
+					arXiv: <a href="https://arxiv.org/abs/{{pub.arxiv}}">{{pub.arxiv}}</a>
 				{% endif %}
 			</p>
 		</div>

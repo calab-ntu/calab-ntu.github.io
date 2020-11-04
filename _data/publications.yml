@@ -19,9 +19,9 @@
     - Zhi Li (李智)
     - Juntai Shen (沈俊太)
     - Hsi-Yu Schive (薛熙于)
-  journal:  The Astrophysical Journal
-  volume: 12
-  page: 889:88
+  journal:  Astrophys. J.
+  volume: 903
+  page: 66
   year: 2020
   month: 2
   doi: 10.3847/1538-4357/ab6598
@@ -62,7 +62,7 @@
     - Hsi-Yu Schive
     - Ui-Han Zhang
     - Tzihong Chiueh
-  journal: Monthly Notices of the Royal Astronomical Society
+  journal: Mon. Not. R. Astron. Soc.
   volume: 484
   page: 4273–4286
   year: 2019
@@ -71,13 +71,13 @@
   arxiv: 1810.05930
   yearMonth: 2019-04
 
-- title: Dynamical Evidence of a Solitonic Core of 109M⊙ in the Milky Way
+- title: "Dynamical Evidence of a Solitonic Core of 10<sup>9</sup> M<sub>⊙</sub> in the Milky Way"
   authors:
     - Ivan De Martino, Tom Broadhurst
     - S. -H. Henry Tye
     - Tzihong Chiueh
     - Hsi-Yu Schive
-  journal: Physics of the Dark Universe
+  journal: Phys. Dark Universe
   volume: 28
   page: 100503
   year: 2020
