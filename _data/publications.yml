@@ -10,7 +10,7 @@
   page: 111102
   year: 2020
   doi: 10.1103/PhysRevLett.125.111102
-  arxiv: 2002.10473
+  arxiv: "2002.10473"
   yearMonth: 2020-09
 
 - title: "Testing the Prediction of Fuzzy Dark Matter Theory in the Milky Way Center"
@@ -23,7 +23,7 @@
   page: 66
   year: 2020
   doi: 10.3847/1538-4357/ab6598
-  arxiv: 2001.00318
+  arxiv: "2001.00318"
   yearMonth: 2020-02
 
 - title: "Soliton Random Walk and the Cluster-Stripping Problem in Ultralight Dark Matter"
@@ -36,7 +36,7 @@
   page: 201301
   year: 2020
   doi: 10.1103/PhysRevLett.124.201301
-  arxiv: 1912.09483
+  arxiv: "1912.09483"
   yearMonth: 2020-05
 
 - title: "Large Scale Dynamo in a Primordial Accretion Flow -- An Interpretation from Hydrodynamic Simulation"
@@ -49,7 +49,7 @@
   page: 
   year: 2019
   doi: 
-  arxiv: 1911.07898
+  arxiv: "1911.07898"
   yearMonth: 2019-11
 
 - title: "Testing Extreme-axion Wave Dark Matter Using the BOSS Lyman-Alpha Forest Data"
@@ -63,7 +63,7 @@
   page: 4273–4286
   year: 2019
   doi: 10.1093/mnras/stz271
-  arxiv: 1810.05930
+  arxiv: "1810.05930"
   yearMonth: 2019-04
 
 - title: "Dynamical Evidence of a Solitonic Core of 10<sup>9</sup> M<sub>⊙</sub> in the Milky Way"
@@ -77,7 +77,7 @@
   page: 100503
   year: 2020
   doi: 10.1016/j.dark.2020.100503
-  arxiv: 1807.08153
+  arxiv: "1807.08153"
   yearMonth: 2020-05
 
 - title: "Cosmic Structure as the Quantum Interference of a Coherent Dark Wave"
@@ -91,7 +91,7 @@
   year: 2014
   yearMonth: 2014-07
   doi: 10.1038/nphys2996
-  arxiv: 1406.6586 
+  arxiv: "1406.6586"
 
 - title: "Understanding the Core-halo Relation of Quantum Wave Dark Matter From 3D Simulations"
   authors:
@@ -108,7 +108,7 @@
   year: 2014
   yearMonth: 2014-12
   doi: 10.1103/PhysRevLett.113.261302
-  arxiv: 1407.7762
+  arxiv: "1407.7762"
 
 - title: "GAMER: a Graphic Processing Unit Accelerated Adaptive-mesh-refinement Code for Astrophysics"
   authors:
@@ -121,7 +121,7 @@
   year: 2010
   yearMonth: 2010-02
   doi: 10.1088/0067-0049/186/2/457
-  arxiv: 0907.3390
+  arxiv: "0907.3390"
 
 - title: "Contrasting Galaxy Formation from Quantum Wave Dark Matter, ψDM, with ΛCDM, Using Planck and Hubble Data"
   authors: 
@@ -159,7 +159,7 @@
   year: 2017
   yearMonth: 2017-04
   doi: 10.1093/mnras/stw3291
-  arxiv: 1610.09591 
+  arxiv: "1610.09591"
 
 - title: "Complete Waveform Model for Compact Binaries on Eccentric Orbits"
   authors: 
@@ -183,7 +183,7 @@
   year: 2017
   yearMonth: 2017-01
   doi: 10.1103/PhysRevD.95.024038
-  arxiv: 1609.05933 
+  arxiv: "1609.05933"
 
 - title: "Jeans Analysis for Dwarf Spheroidal Galaxies in Wave Dark Matter"
   authors:
@@ -196,7 +196,7 @@
   year: 2017
   yearMonth: 2017-06
   doi: 10.1093/mnras/stx449
-  arxiv: 1606.09030 
+  arxiv: "1606.09030" 
 
 - title: "Graphic-Card Cluster for Astrophysics (GraCCA)–Performance Tests"
   authors: 
@@ -211,7 +211,7 @@
   year: 2008
   yearMonth: 2008-08
   doi: 10.1016/j.newast.2007.12.005
-  arxiv: 0707.2991
+  arxiv: "0707.2991"
 
 - title: "Recognizing Axionic Dark Matter by Compton and de Broglie Scale Modulation of Pulsar Timing"
   authors: 
@@ -239,7 +239,7 @@
   year: 2012
   yearMonth: 2012-11
   doi: 10.1177/1094342011428146
-  arxiv: 1103.3373
+  arxiv: "1103.3373"
 
 - title: "Gamer-2: a GPU-Accelerated Adaptive Mesh Refinement Code – Accuracy, Performance, and Scalability"
   authors: 
@@ -255,7 +255,7 @@
   year: 2018
   yearMonth: 2018-12
   doi: 10.1093/mnras/sty2586
-  arxiv: 1712.07070
+  arxiv: "1712.07070"
 
 - title: "How do Stars Affect ψDM Haloes?"
   authors: 
@@ -282,7 +282,7 @@
   year: 2018
   yearMonth: 2018-05
   doi: 10.1103/PhysRevD.97.103523
-  arxiv: 1801.02320
+  arxiv: "1801.02320"
 
 - title: "Halo abundance and assembly history with extreme-axion wave dark matter at z ≥ 4"
   authors: 
@@ -294,7 +294,7 @@
   year: 2018
   yearMonth: 2018-01
   doi: 10.1093/mnrasl/slx159
-  arxiv: 1706.03723
+  arxiv: "1706.03723"
 
 - title: "Ultra Light Axionic Dark Matter: Galactic Halos and Implications for Observations with Pulsar Timing Arrays"
   authors:
@@ -352,7 +352,7 @@
   year: 2011
   yearMonth: 2011-05
   doi: 10.1088/0953-4075/44/11/115101
-  arxiv: 0910.2791
+  arxiv: "0910.2791"
 
 - title: "Magnetohydrodynamics with GAMER"
   authors: 
@@ -365,7 +365,7 @@
   year: 2018
   yearMonth: 2018-06
   doi: 10.3847/1538-4365/aac49e
-  arxiv: 1804.03479
+  arxiv: "1804.03479"
 
 - title: "Hydrodynamical Simulations of Colliding Jets: Modeling 3C 75"
   authors: 
@@ -420,7 +420,7 @@
   year: 2015
   yearMonth: 2015-05
   doi: 10.1093/mnras/stv514
-  arxiv: 1503.08564
+  arxiv: "1503.08564"
 
 - title: "GAMER with Out-of-Core Computation"
   authors:
@@ -433,7 +433,7 @@
   year: 2010
   yearMonth: 2010-05
   doi: 10.1017/S1743921311000718
-  arxiv: 1007.3818
+  arxiv: "1007.3818"
 
 - title: "VizieR Online Data Catalog: High-z galaxy candidates in the HFF cluster fields (Leung+, 2018)"
   authors: 
