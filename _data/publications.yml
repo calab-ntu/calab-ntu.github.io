@@ -44,7 +44,7 @@
     - Wei-Ting Liao
     - Matthew Turk
     - Hsi-Yu Schive
-  journal: 
+  journal: arXiv
   volume: 
   page: 
   year: 2019
@@ -242,7 +242,7 @@
   arxiv: 1103.3373
 
 - title: "Gamer-2: a GPU-Accelerated Adaptive Mesh Refinement Code – Accuracy, Performance, and Scalability"
-  author: 
+  authors: 
     - Hsi-Yu Schive
     - John A ZuHone
     - Nathan J Goldbaum
@@ -271,7 +271,7 @@
   doi: 10.1093/mnras/sty900
 
 - title: "Self-Consistent Construction of Virialized Wave Dark Matter Halos"
-  author: 
+  authors: 
     - Shan-Chang Lin
     - Hsi-Yu Schive
     - Shing-Kwong Wong
@@ -285,7 +285,7 @@
   arxiv: 1801.02320
 
 - title: "Halo abundance and assembly history with extreme-axion wave dark matter at z ≥ 4"
-  author: 
+  authors: 
     - Hsi-Yu Schive
     - Tzihong Chiueh
   journal: Mon. Not. R. Astron Soc.
@@ -294,4 +294,156 @@
   year: 2018
   yearMonth: 2018-01
   doi: 10.1093/mnrasl/slx159
-  arxiv: 1706.03723 
+  arxiv: 1706.03723
+
+- title: "Ultra Light Axionic Dark Matter: Galactic Halos and Implications for Observations with Pulsar Timing Arrays"
+  authors:
+    - Ivan De Martino
+    -  Tom Broadhurst
+    - S-H Henry Tye
+    - Tzihong Chiueh
+    - Hsi-Yu Schive
+    - Ruth Lazkoz
+  journal: Galaxies
+  volume: 6
+  page: 10
+  year: 2018
+  yearMonth: 2018-03
+  doi: 10.3390/galaxies6010010 
+
+- title: "Magnification Bias of Distant Galaxies in the Hubble Frontier Fields: Testing Wave Versus Particle Dark Matter Predictions"
+  authors:
+    - Enoch Leung
+    - Tom Broadhurst
+    - Jeremy Lim
+    - Jose M Diego
+    - Tzihong Chiueh
+    - Hsi-Yu Schive
+    - Rogier Windhorst
+  journal: Astron. J
+  volume: 862
+  page: 156
+  year: 2018
+  yearMonth: 2018-08
+  doi: 10.3847/1538-4357/aacdad
+
+- title: "Multi-Science Applications with Single Codebase-GAMER-for Massively Parallel Architectures"
+  authors:
+    - Hemant Shukla
+    - Hsi-Yu Schive
+    - Tak-Pong Woo
+    - Tzihong Chiueh
+  journal: SC'11 Proceeding
+  volume: 1
+  page: 1-11
+  year: 2011
+  yearMonth: 2011-11
+  doi: 10.1145/2063384.2063433
+
+- title: "Vortex turbulence in linear Schrödinger wave mechanics"
+  authors:
+    - Tzihong Chiueh
+    - Tak-Pong Woo
+    - Hung-Yu Jian
+    - Hsi-Yu Schive
+  journal: J. Phys. B
+  volume: 44
+  page: 115101
+  year: 2011
+  yearMonth: 2011-05
+  doi: 10.1088/0953-4075/44/11/115101
+  arxiv: 0910.2791
+
+- title: "Magnetohydrodynamics with GAMER"
+  authors: 
+    - Ui-Han Zhang
+    - Hsi-Yu Schive
+    - Tzihong Chiueh
+  journal: Astrophys. J. Suppl. Ser.
+  volume: 236
+  page: 50
+  year: 2018
+  yearMonth: 2018-06
+  doi: 10.3847/1538-4365/aac49e
+  arxiv: 1804.03479
+
+- title: "Hydrodynamical Simulations of Colliding Jets: Modeling 3C 75"
+  authors: 
+    - SM Molnar
+    - H-Y Schive
+    - M Birkinshaw
+    - T Chiueh
+    - G Musoke
+    - AJ Young
+  journal: Astropart. Phys.
+  volume: 835
+  page: 57
+  year: 2017
+  yearMonth: 2017-01
+  doi: 10.3847/1538-4357/835/1/57
+
+- title: "Numerical Simulations of Acoustic Waves with the Graphic Acceleration GAMER Code"
+  authors:
+    - K Murawski
+    - H Schive
+  journal: "Bull. Pol. Ac.: Tech."
+  volume: 60
+  page: 787-792
+  year: 2012
+  yearMonth: 2012-04
+  doi: 10.2478/v10175-012-0091-9
+
+- title: "Accelerated Many-Core GPU Computing for Physics and Astrophysics on Three Continents"
+  authors: 
+    - Rainer Spurzem
+    - Peter Berczik
+    - Ingo Berentzen
+    - Wei Ge, Xiaowei Wang
+    - Hsi-Yu Schive
+    - Keigo Nitadori
+    - Tsuyoshi Hamada
+    - José Fiestas
+  journal: Large‐Scale Computing
+  page: 35-58
+  year: 2012
+  yearMonth: 2012-02
+  doi: 10.1002/9781118130506
+
+- title: "Sound-Triggered Collapse of Stably Oscillating Low-Mass Cores in a Two-Phase Interstellar Medium"
+  authors: 
+    - Ui-Han Zhang
+    - Hsi-Yu Schive
+    - Tzihong Chiueh
+  journal: Mon. Not. R. Astron Soc.
+  volume: 449
+  page: 3183-3190
+  year: 2015
+  yearMonth: 2015-05
+  doi: 10.1093/mnras/stv514
+  arxiv: 1503.08564
+
+- title: "GAMER with Out-of-Core Computation"
+  authors:
+    - Hsi-Yu Schive
+    - Yu-Chih Tsai
+    - Tzihong Chiueh
+  journal: Proc. Int. Astron. Union
+  volume: 6
+  page: 401-404
+  year: 2010
+  yearMonth: 2010-05
+  doi: 10.1017/S1743921311000718
+  arxiv: 1007.3818
+
+- title: "VizieR Online Data Catalog: High-z galaxy candidates in the HFF cluster fields (Leung+, 2018)"
+  authors: 
+    - E Leung
+    - T Broadhurst
+    - J Lim
+    - JM Diego
+    - T Chiueh
+    - H-Y Schive
+    - R Windhorst
+  journal: yCat
+  year: 2019
+  yearMonth: 2019-07
