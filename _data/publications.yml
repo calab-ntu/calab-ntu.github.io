@@ -447,3 +447,250 @@
   journal: yCat
   year: 2019
   yearMonth: 2019-07
+
+- title: "Cosmological Perturbations of Extreme Axion in the Radiation Era"
+  authors:
+    - Ui-Han Zhang
+    - Tzihong Chiueh
+  journal: Phys. Rev. D
+  volume: 96
+  page: "063522"
+  year: 2017
+  yearMonth: 2017-09
+  doi: 10.1103/PhysRevD.96.063522
+  arxiv: "1705.01439"
+
+- title: "The Pan-STARRS1 Medium-deep Survey: Star Formation Quenching in Group and
+Cluster Environments"
+  authors:
+    - Hung-Yu Jian1
+    - Lihwai Lin1
+    - Kai-Yang Lin1
+    - Sebastien Foucaud
+    - Chin-Wei Chen1
+    - Tzihong Chiueh
+    - R. G. Bower
+    - Shaun Cole
+    - Wen-Ping Chen
+    - W. S. Burgett 
+    - P. W. Draper
+    - H. Flewelling
+    -  M. E. Huber
+    - N. Kaiser
+    - R.-P. Kudritzki
+    - E. A. Magnier
+    - N. Metcalfe
+    - R. J. Wainscoat
+    - C. Waters
+  journal: Astrophys. J.
+  volume: 845
+  page: 74
+  year: 2017
+  yearMonth: 2017-08
+  doi: 10.3847/1538-4357/aa7de2
+  arxiv: "1708.02850"
+
+- title: "Galaxy-Scale Gravitational Lens Candidates from the Hyper Suprime-Cam Imaging Survey and the Galaxy and Mass Assembly Spectroscopic Survey"
+  authors:
+    - James H. H. Chan
+    - Sherry H. Suyu
+    - Anupreeta More
+    - Masamune Oguri
+    - Tzihong Chiueh
+    - Jean Coupon10,
+    - Bau-Ching Hsieh
+    - Yutaka Komiyama
+    - Satoshi Miyazaki
+    - Hitoshi Murayama
+    - Atsushi J. Nishizawa
+    - Paul Price
+    - Philip J. Tait
+    - Tsuyoshi Terai
+    - Yousuke Utsumi
+    - Shiang-Yu Wang
+  journal: Astrophys. J.
+  volume: 832
+  page: 135
+  year: 2016
+  yearMonth: 2016-12
+  doi: 10.3847/0004-637X/832/2/135
+
+- title: "SHARP – III. First Use of Adaptive-Optics Imaging to Constrain Cosmology with Gravitational Lens Time Delays"
+  authors:
+    - Geoff C.-F. Chen
+    - Sherry H. Suyu
+    - Kenneth C. Wong
+    - Christopher D. Fassnacht
+    - Tzihong Chiueh
+    - Aleksi Halkola
+    - I Shing Hu
+    - Matthew W. Auger
+    - Leon V. E. Koopmans
+    - David J. Lagattuta
+    - John P. McKean
+    - Simona Vegetti
+  journal: Mon. Not. R. Astron Soc.
+  volume: 462
+  page: 3457-3475
+  year: 2016
+  yearMonth: 2016-08
+  doi: 10.1093/mnras/stw991
+  arxiv: "1601.01321" 
+
+- title: "Can We Detect the Color-Density Relation with Photometric Redshifts?"
+  authors:
+    - Chuan-Chin Lai
+    - Lihwai Lin
+    - Hung-Yu Jian
+    - Tzi-Hong Chiueh
+    - Alex Merson
+    - Carlton Baugh
+    - Sebastien Foucaud
+    - Chin-Wei Chen
+    - Wen-Ping Chen
+  journal: Mon. Not. R. Astron Soc.
+  volume: 825
+  page: 40
+  year: 2016
+  yearMonth: 2016-07
+  doi: 10.3847/0004-637X/825/1/40
+  arxiv: "1501.01398"
+
+- title: "CHITAH: Strong-Gravitational-Lens Hunter in Imaging Surveys"
+  authors:
+    - James H. H. Chan
+    - Sherry H. Suyu
+    - Tzihong Chiueh
+    - Anupreeta More
+    - Philip J. Marshall
+    - Jean Coupon
+    - Masamune Oguri
+    - Paul Price
+  jorunal: Astron. J.
+  volume: 807
+  page: 138
+  year: 2015
+  yearMonth: 2015-07
+  doi: 10.1088/0004-637X/807/2/138
+  arxiv: "1411.5398"
+
+- title: "A 4 GHz Cryogenic Amplifier in 0.18 µm General Purpose BiCMOS Technology"
+  authors:
+    - Yu-Shao Jerry Shiao
+    - Guo-Wei Huang
+    - Tzi-Hong Chiueh
+  journal: APMC 2014
+  volume: 
+  page:
+  year: 2014
+  yearMonth: 2014-11
+
+- title: "Why is the Dark Axion Mass 10<sup>−22</sup> eV?"
+  authors:
+    - Tzihong Chiueh
+  journal: arXiv
+  arxiv: "1409.0380"
+  year: 2014
+  yearMonth: 2014-09
+
+- title: "Ultrawideband 1-b Digital Spectrometer"
+  authors: 
+    - Hsiao-Feng Teng
+    - Ui-Han Zhang
+    - Tzi Hong Chiueh
+    - Shing-Kwong Wong
+    - Huan-Hsin Li
+    - Yen-Lin Chen
+  journal: IEEE Trans Instrum Meas
+  volume: 64
+  page: 299-307
+  year: 2015
+  yearMonth: 2015-02
+  doi: 10.1109/TIM.2014.2340655
+
+- title: "A New Method for Computing Self-Gravity in an Isolated System"
+  authors:
+    - James H. H. Chan
+    - Tzihong Chiueh
+  journal: Mon. Not. R. Astron Soc.
+  volume: 442
+  page: 3462-3468
+  year: 2014
+  yearMonth: 2014-08
+  doi: 10.1093/mnras/stu1134
+  arxiv: "1407.2811"
+
+- title: "New Near-Infrared Observations and Lens-Model Constraints for UM673<sup>⋆,⋆⋆</sup>"
+  authors:
+    - E. Koptelova1
+    - T. Chiueh1
+    - W. P. Chen
+    - H. H. Chan1
+  journal: Astron. Astrophys
+  volume: 566
+  page: A36
+  year: 2014
+  yearMonth: 2014-04
+  doi: 10.1051/0004-6361/201322230
+  arxiv: "1307.2390"
+
+- title: "Probability Friends-of-Friends (PFOF) Group Finder: Performance Study and Observational Data Applications on Photometric Surveys"
+  authors: 
+    - Hung-Yu Jian
+    - Lihwai Lin
+    - Tzihong Chiueh
+    - Kai-Yang Lin
+    - Hauyu Baobab Liu
+    - Alex Merson
+    - Carlton Baugh
+    - Jia-Sheng Huang
+    - Chin-Wei Chen
+    - Sebastien Foucaud
+    - David N. A. Murphy
+    - Shaun Cole
+    - William Burgett
+    - Nick Kaiser
+  journal: Astrophys. J.
+  volume: 788
+  page: 109
+  year: 2014
+  yearMonth: 2014-06
+  doi: 10.1088/0004-637X/788/2/109
+  arxiv: "1305.1891"
+
+- title: "A 77-118 GHz Resonance-free Septum Polarizer"
+  authors: 
+    - Yen-Lin Chen
+    - Tzihong Chiueh
+    - Hsiao-Feng Teng
+  journal: Astrophys. J. Suppl. Ser.
+  volume: 211
+  page: 11
+  year: 2014
+  yearMonth: 2014-03
+  doi: 10.1088/0067-0049/211/1/11
+  arxiv: "1402.7329"
+
+- title: "Environmental Dependence of Galaxy Merger Rate in ΛCDM Universe"
+  authors: 
+    - Hung-Yu Jian
+    - Lihwai Lin
+    - Tzihong Chiueh
+  journal: Astrophys. J.
+  volume: 754
+  page: 26
+  year: 2012
+  yearMonth: 2012-07
+  doi: 10.1088/0004-637X/754/1/26
+  arxiv: "1205.1588"
+
+- title: "Real-Time Tbps Digital Correlator in NTU-Array"
+  authors: 
+    - Shing-Kwong Wong
+    - Huan-Hsin Li
+    - Yu Shao
+    - Jerry Shiao
+    - Hsiao-Feng Teng
+    - Yen-Lin Chen
+    - Tzihong Chiueh
+  journal: 
