@@ -4,47 +4,84 @@ layout: base
 
 <div class="container-fluid">
 	{% assign publications = site.data.publications | sort: "yearMonth" | reverse %}
-	{% assign y = 0 %}
-
-	{% for pub in publications %}
+	{% assign y = 99999 %}
+	{% assign b2014 = false %}
 	<div class="row">
-		<div class="col-sm-6 offset-sm-3">
-			{% if y != pub.year %}
-			<br>
-			<h3 id="year_{{ pub.year }}">{{ pub.year }}</h3>
-			<hr>
-			{% assign y = pub.year %}
-			{% endif %}
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-sm-6 offset-sm-3">
-			<h5>
-				{{ pub.title }}
-			</h5>
-
-			<p>
-				{% for author in pub.authors %}
-				{{ author }}
-				{% if forloop.last != true %}
-					,
-				{% endif %}
+		<div class="col-lg-2 nav-member">
+			<ul>
+				{% for pub in publications %}
+					{% if y != pub.year %}
+						{% if pub.year >= 2014 %}
+							<li><a href="#year_{{pub.year}}">{{pub.year}}</a></li>
+							{% assign y = pub.year %}
+						{% else %}
+							{% if b2014 == false %}
+								<li><a href="#before_2014">Before 2014</a></li>
+							{% endif %}
+							{% assign b2014 = true %}
+							{% assign y = pub.year %}
+						{% endif %}
+					{% endif %}
 				{% endfor %}
-				
-				<br>
-				{% if pub.doi %}
-				<a href="https://doi.org/{{pub.doi}}">{{ pub.journal }} {{ pub.volume}}, {{ pub.page}} ({{ pub.year }})</a>
-				{% else %}
-				{{ pub.journal }} {{ pub.volume}}, {{ pub.page}} ({{ pub.year }})
-				{% endif %}
-				<br>
-				  
-				{% if pub.arxiv %}
-					arXiv: <a href="https://arxiv.org/abs/{{pub.arxiv}}">{{pub.arxiv}}</a>
-				{% endif %}
-			</p>
+			</ul>
+		</div>
+		
+		<div class="col-lg-6 offset-lg-1">
+			{% assign y = 999999 %}
+			{% assign b2014 = false %}
+			{% for pub in publications %}
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12">
+						{% if y != pub.year %}
+						{% if pub.year >= 2014 %}
+						<br>
+						<h3 id="year_{{ pub.year }}">{{ pub.year }}</h3>
+						<hr>
+						{% assign y = pub.year %}
+						{% else %}
+						{% if b2014 == false %}
+						<br>
+						<h3 id="before_2014">Before 2014</h3>
+						<hr>
+						{% assign b2014 = true %}
+						{% assign y = pub.year %}
+						{% endif %}
+						{% endif %}
+						{% endif %}
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-12">
+						<h5>
+							{{ pub.title }}
+						</h5>
+	
+						<p>
+							{% for author in pub.authors %}
+							{{ author }}
+							{% if forloop.last != true %}
+						,
+							{% endif %}
+							{% endfor %}
+					
+							<br>
+							{% if pub.doi %}
+							<a href="https://doi.org/{{pub.doi}}">{{ pub.journal }} {{ pub.volume}}, {{ pub.page}} ({{ pub.year }})</a>
+							{% else %}
+							{{ pub.journal }} {{ pub.volume}}, {{ pub.page}} ({{ pub.year }})
+							{% endif %}
+							<br>
+					  
+							{% if pub.arxiv %}
+							arXiv: <a href="https://arxiv.org/abs/{{pub.arxiv}}">{{pub.arxiv}}</a>
+							{% endif %}
+						</p>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
 		</div>
 	</div>
-	{% endfor %}
 </div>
-

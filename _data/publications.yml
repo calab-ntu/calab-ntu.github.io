@@ -584,6 +584,7 @@ Cluster Environments"
   page:
   year: 2014
   yearMonth: 2014-11
+  url: https://ieeexplore.ieee.org/abstract/document/7067605
 
 - title: "Why is the Dark Axion Mass 10<sup>−22</sup> eV?"
   authors:
@@ -693,4 +694,56 @@ Cluster Environments"
     - Hsiao-Feng Teng
     - Yen-Lin Chen
     - Tzihong Chiueh
-  journal: 
+  journal: Proc. SPIE
+  volume: 7741
+  page: 77412T
+  year: 2010
+  yearMonth: 2010-07
+  doi: 10.1117/12.857855
+
+- title: "Where do Wet, Dry, and Mixed Galaxy Mergers Occur? A Study of the Environments of Close Galaxy Pairs in the DEEP2 Galaxy Redshift Survey"
+  authors: 
+    - Lihwai Lin
+    - Michael C. Cooper
+    - Hung-Yu Jian
+    - David C. Koo
+    - David R. Patton
+    - Renbin Yan
+    - Christopher N. A. Willmer
+    - Alison L. Coil
+    - Tzihong Chiueh
+    - Darren J. Croton
+    - Brian F. Gerke
+    - Jennifer Lotz
+    - Puragra Guhathakurta
+    - Jeffrey A. Newman
+  journal: Astron. J.
+  volume: 718
+  page: 1158-1170
+  year: 2010
+  yearMonth: 2010-07
+  doi: 10.1088/0004-637X/718/2/1158
+  arxiv: "1001.4560"
+
+- title: "Effects of Nonuniform Input Spectra on Signal-to-Noise Ratio in Wide-Bandwidth Digital Correlation"
+  authors:
+    - Shing Kwong Wong1
+    - Tzihong Chiueh
+  journal: Publ. Astron. Soc. Pac.
+  volume: 122
+  page: 215-223
+  year: 2010
+  yearMonth: 2010-02
+  url: https://iopscience.iop.org/article/10.1086/651032/meta
+
+- title: "High-Resolution Simulation on Structure Formation with Extremely Light Bosonic Dark Matter"
+  authors: 
+    - Tak-Pong Woo
+    - Tzihong Chiueh
+  journal: Astron. J.
+  volume: 697
+  page: 850-861
+  year: 2009
+  yearMonth: 2009-05
+  doi: 10.1088/0004-637X/697/1/850
+  arxiv: "0806.0232"
