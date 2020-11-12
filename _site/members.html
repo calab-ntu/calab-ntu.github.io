@@ -114,23 +114,25 @@
 
 					<li>
 						Intro:<br>
-						<div style="max-height: 95px" class="intro" id="Chiueh">
+						<div class="intro" id="Chiueh">
 						Tzihong Chiueh was born in Hsi-Tser (汐止), Taipei County, Nov. 29, 1955.  He obtained BS/Physics, MS/Physics and PhD/Physics in 1978, 1980 and 1985 from NTU, UCLA and UT Austin, respectively.  During 1985 to 1989, he worked as a postdoc fellow in University of Colorado in Boulder.  In 1989, he joined Physics Department, National Central University as a faculty member, and in 1992 he became a faculty member of the then newly formed Institute of Astronomy, National Central University, also serving as the Director.  Since 1998, he joined Physics Department NTU as a faculty member.  He also holds a joint appointment with Academia Sinica Institute of Astronomy and Astrophysics (ASIAA) ever since 1993.  In 1997-1999, he serves in National Science Council as the Co-Chairman of the Physics Research Review Committee.
 Tzihong Chiueh’s research interests include Theoretical Astrophysics, Computational Astrophysics and Astrophysics instrumentations.  He was awarded with the Outstanding Research Awards of National Science Council in 1991, 1994 and 2003, and was appointed as the NTU Distinguished Professor since 2007.
 						</div>
 						
 						
-						<button class="more_Chiueh">...more</button>
+						<a class="more_Chiueh" style="inline">...more</a>
+						<a class="less_Chiueh" style="display:none;">...less</a>
 						<script>
 							$('.more_Chiueh').click(function() {
-								$(this).text('...less');
-								$(this).removeClass('more_Chiueh');
-								$(this).addClass('less_Chiueh');
+								$(this).css({'display':'none'});
+								$('.less_Chiueh').css({'display':'inline'});
+								$('#Chiueh').css({'max-height':'none'});
 							});
-							$('.less_Chiueh').click(function(){
-								$(this).text('...more');
-								$(this).removeClass('less_Chiueh');
-								$(this).addClass('more_Chiueh');
+						
+							$('.less_Chiueh').click(function() {
+								$(this).css({'display':'none'});
+								$('.more_Chiueh').css({'display':'inline'});
+								$('#Chiueh').css({'max-height':'95px'});
 							});
 						</script>
 						
@@ -172,7 +174,7 @@ Tzihong Chiueh’s research interests include Theoretical Astrophysics, Computat
 
 					<li>
 						Intro:<br>
-						<div style="max-height: 95px" class="intro" id="bonwood">
+						<div class="intro" id="bonwood">
 						
 						</div>
 						
@@ -215,7 +217,7 @@ Tzihong Chiueh’s research interests include Theoretical Astrophysics, Computat
 
 					<li>
 						Intro:<br>
-						<div style="max-height: 95px" class="intro" id="xuanweishan">
+						<div class="intro" id="xuanweishan">
 						Wei-Hsuan is a research asistant at NTU from April 2020. Helping build GPU clusters and mentian the system.
 						</div>
 						
@@ -267,22 +269,24 @@ Tzihong Chiueh’s research interests include Theoretical Astrophysics, Computat
 
 					<li>
 						Intro:<br>
-						<div style="max-height: 95px" class="intro" id="koarakawaii">
+						<div class="intro" id="koarakawaii">
 						Hello, I am Guan-Ming Su. I was originally working on experimental condensed matter physics during my master and first two years Ph.D, but later found simulation and programming so interesting that I decided to switch to the current field. Now I am in the learning phase of cosmology simulation, especially about the large scale structure, and hope to catch on this cutting edge science with tons of unsolved problems leaving us to explore :)
 						</div>
 						
 						
-						<button class="more_koarakawaii">...more</button>
+						<a class="more_koarakawaii" style="inline">...more</a>
+						<a class="less_koarakawaii" style="display:none;">...less</a>
 						<script>
 							$('.more_koarakawaii').click(function() {
-								$(this).text('...less');
-								$(this).removeClass('more_koarakawaii');
-								$(this).addClass('less_koarakawaii');
+								$(this).css({'display':'none'});
+								$('.less_koarakawaii').css({'display':'inline'});
+								$('#koarakawaii').css({'max-height':'none'});
 							});
-							$('.less_koarakawaii').click(function(){
-								$(this).text('...more');
-								$(this).removeClass('less_koarakawaii');
-								$(this).addClass('more_koarakawaii');
+						
+							$('.less_koarakawaii').click(function() {
+								$(this).css({'display':'none'});
+								$('.more_koarakawaii').css({'display':'inline'});
+								$('#koarakawaii').css({'max-height':'95px'});
 							});
 						</script>
 						
@@ -324,7 +328,7 @@ Tzihong Chiueh’s research interests include Theoretical Astrophysics, Computat
 
 					<li>
 						Intro:<br>
-						<div style="max-height: 95px" class="intro" id="tseng">
+						<div class="intro" id="tseng">
 						I am interesting numerical analysis, data analysis, data visualization, and developing codes for dynamics simulation in astrophysical problems.
 						</div>
 						
@@ -376,22 +380,24 @@ Tzihong Chiueh’s research interests include Theoretical Astrophysics, Computat
 
 					<li>
 						Intro:<br>
-						<div style="max-height: 95px" class="intro" id="arthurHsu">
+						<div class="intro" id="arthurHsu">
 						I earned Bachelor of Science, department of physics at National Taiwan University at 2018. I'm now pursuing Master degree at National Taiwan University. My project is analyzing linear perturbations in universe of multi-component ultralight axion. We apply different approximations to alleviate the required time of calculating stiff evolution equations. These calculations are further promoted to multi-component universe.
 						</div>
 						
 						
-						<button class="more_arthurHsu">...more</button>
+						<a class="more_arthurHsu" style="inline">...more</a>
+						<a class="less_arthurHsu" style="display:none;">...less</a>
 						<script>
 							$('.more_arthurHsu').click(function() {
-								$(this).text('...less');
-								$(this).removeClass('more_arthurHsu');
-								$(this).addClass('less_arthurHsu');
+								$(this).css({'display':'none'});
+								$('.less_arthurHsu').css({'display':'inline'});
+								$('#arthurHsu').css({'max-height':'none'});
 							});
-							$('.less_arthurHsu').click(function(){
-								$(this).text('...more');
-								$(this).removeClass('less_arthurHsu');
-								$(this).addClass('more_arthurHsu');
+						
+							$('.less_arthurHsu').click(function() {
+								$(this).css({'display':'none'});
+								$('.more_arthurHsu').css({'display':'inline'});
+								$('#arthurHsu').css({'max-height':'95px'});
 							});
 						</script>
 						
@@ -435,22 +441,24 @@ Tzihong Chiueh’s research interests include Theoretical Astrophysics, Computat
 
 					<li>
 						Intro:<br>
-						<div style="max-height: 95px" class="intro" id="cliff">
+						<div class="intro" id="cliff">
 						B.Sc. in Physics, National Taiwan University (2014~2018) Chau-Ting Chang Summer Research Scholarship (2015) Research purpose: The feature of a wave dark matter soliton does not shown in the rotation curves of low surface brightness galaxies. The random motion of the soliton and the high velocity dispersion near the galactic center may slow down the rotation speed and erase the feature of the soliton. To prove this statement, the mock observations of GAMER simulations of galactic disks inside a wave dark matter halos are compared to the observations.
 						</div>
 						
 						
-						<button class="more_cliff">...more</button>
+						<a class="more_cliff" style="inline">...more</a>
+						<a class="less_cliff" style="display:none;">...less</a>
 						<script>
 							$('.more_cliff').click(function() {
-								$(this).text('...less');
-								$(this).removeClass('more_cliff');
-								$(this).addClass('less_cliff');
+								$(this).css({'display':'none'});
+								$('.less_cliff').css({'display':'inline'});
+								$('#cliff').css({'max-height':'none'});
 							});
-							$('.less_cliff').click(function(){
-								$(this).text('...more');
-								$(this).removeClass('less_cliff');
-								$(this).addClass('more_cliff');
+						
+							$('.less_cliff').click(function() {
+								$(this).css({'display':'none'});
+								$('.more_cliff').css({'display':'inline'});
+								$('#cliff').css({'max-height':'95px'});
 							});
 						</script>
 						
@@ -494,22 +502,24 @@ Tzihong Chiueh’s research interests include Theoretical Astrophysics, Computat
 
 					<li>
 						Intro:<br>
-						<div style="max-height: 95px" class="intro" id="weininden">
+						<div class="intro" id="weininden">
 						I graduated from the physics department of National Taiwan University. I have research experiences about dust evolution of galaxies, SMA observation project about dwarf galaxies, and Hawking radiation from Black Hole. Now I am working on applying wave dark matter to the evolution of Globular clusters.
 						</div>
 						
 						
-						<button class="more_weininden">...more</button>
+						<a class="more_weininden" style="inline">...more</a>
+						<a class="less_weininden" style="display:none;">...less</a>
 						<script>
 							$('.more_weininden').click(function() {
-								$(this).text('...less');
-								$(this).removeClass('more_weininden');
-								$(this).addClass('less_weininden');
+								$(this).css({'display':'none'});
+								$('.less_weininden').css({'display':'inline'});
+								$('#weininden').css({'max-height':'none'});
 							});
-							$('.less_weininden').click(function(){
-								$(this).text('...more');
-								$(this).removeClass('less_weininden');
-								$(this).addClass('more_weininden');
+						
+							$('.less_weininden').click(function() {
+								$(this).css({'display':'none'});
+								$('.more_weininden').css({'display':'inline'});
+								$('#weininden').css({'max-height':'95px'});
 							});
 						</script>
 						

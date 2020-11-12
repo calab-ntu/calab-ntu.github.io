@@ -40,22 +40,24 @@ layout: base
 
 					<li>
 						Intro:<br>
-						<div style="max-height: 95px" class="intro" id="{{member.aka}}">
+						<div class="intro" id="{{member.aka}}">
 						{{ member.bio }}
 						</div>
 						{% assign str_length = member.bio | size %}
 						{% if str_length > 200 %}
-						<button class="more_{{member.aka}}">...more</button>
+						<a class="more_{{member.aka}}" style="inline">...more</a>
+						<a class="less_{{member.aka}}" style="display:none;">...less</a>
 						<script>
 							$('.more_{{member.aka}}').click(function() {
-								$(this).text('...less');
-								$(this).removeClass('more_{{member.aka}}');
-								$(this).addClass('less_{{member.aka}}');
+								$(this).css({'display':'none'});
+								$('.less_{{member.aka}}').css({'display':'inline'});
+								$('#{{member.aka}}').css({'max-height':'none'});
 							});
-							$('.less_{{member.aka}}').click(function(){
-								$(this).text('...more');
-								$(this).removeClass('less_{{member.aka}}');
-								$(this).addClass('more_{{member.aka}}');
+						
+							$('.less_{{member.aka}}').click(function() {
+								$(this).css({'display':'none'});
+								$('.more_{{member.aka}}').css({'display':'inline'});
+								$('#{{member.aka}}').css({'max-height':'95px'});
 							});
 						</script>
 						{% endif %}

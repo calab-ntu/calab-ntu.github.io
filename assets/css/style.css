@@ -83,6 +83,7 @@
 =================================*/
 
 .intro {
+	max-height: 95px;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	}
