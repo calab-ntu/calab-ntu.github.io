@@ -69,6 +69,8 @@ layout: base
 							<br>
 							{% if pub.doi %}
 							<a href="https://doi.org/{{pub.doi}}">{{ pub.journal }} {{ pub.volume}}, {{ pub.page}} ({{ pub.year }})</a>
+							{% elsif pub.url %}
+							<a href="{{pub.url}}">{{ pub.journal }} {{ pub.volume}}, {{ pub.page}} ({{ pub.year }})</a>
 							{% else %}
 							{{ pub.journal }} {{ pub.volume}}, {{ pub.page}} ({{ pub.year }})
 							{% endif %}

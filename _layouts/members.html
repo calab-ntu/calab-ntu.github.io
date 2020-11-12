@@ -2,7 +2,7 @@
 layout: base
 ---
 
-{% assign designations = "Professor, Assistant Professor, Research Assistant, Ph.D, Master, Bachelor" | split: ", "%}
+{% assign designations = "Professor, Assistant_Professor, Research_Assistant, Ph.D, Master, Bachelor" | split: ", "%}
 
 <div class="container-fluid">
 	<div class="row">
@@ -40,7 +40,25 @@ layout: base
 
 					<li>
 						Intro:<br>
+						<div style="max-height: 95px" class="intro" id="{{member.aka}}">
 						{{ member.bio }}
+						</div>
+						{% assign str_length = member.bio | size %}
+						{% if str_length > 200 %}
+						<button class="more_{{member.aka}}">...more</button>
+						<script>
+							$('.more_{{member.aka}}').click(function() {
+								$(this).text('...less');
+								$(this).removeClass('more_{{member.aka}}');
+								$(this).addClass('less_{{member.aka}}');
+							});
+							$('.less_{{member.aka}}').click(function(){
+								$(this).text('...more');
+								$(this).removeClass('less_{{member.aka}}');
+								$(this).addClass('more_{{member.aka}}');
+							});
+						</script>
+						{% endif %}
 					</li>
 
 					{% if member.email %}

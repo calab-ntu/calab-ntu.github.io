@@ -1,5 +1,6 @@
 - name: 曾煒軒 (Tseng, Wei-Hsuan)
-  position: Research Assistant
+  aka: xuanweishan
+  position: Research_Assistant
   begin_year_month: 2020-04
   email: xuanweishan@gmail.com
   bio: Wei-Hsuan is a research asistant at NTU from April 2020. Helping build GPU clusters and mentian the system.
@@ -9,11 +10,13 @@
       url: https://github.com/calab-ntu/eureka/wiki
 
 - name: 胡德邦 (Tak Pong Woo)
-  position: Assistant Professor
+  aka: bonwood
+  position: Assistant_Professor
   email: bonwood@phys.ntu.edu.tw
   picture: /assets/images/members/bonwood.jpg
 
 - name: 許藝薰 (Yi-Hsiung Hsu, a.k.a Arthur Hsu)
+  aka: arthurHsu
   position: Master
   begin_year_month: 2018-09
   email: arthurhsu3388@gmail.com
@@ -23,6 +26,7 @@
   picture: /assets/images/members/arthurHsu.jpg
 
 - name : 蘇冠銘 (Guna-Ming Su)
+  aka: koarakawaii
   position : Ph.D
   begin_year_month : 2020-08
   email : d07222009@ntu.edu.tw
@@ -32,6 +36,7 @@
     - name: re-construct Milky-Way scale dark matter halo
 
 - name : 曾柏勳（Po-Hsun Tseng）
+  aka: tseng
   position : Ph.D
   begin_year_month : 2016
   email : zengbs@gmail.com
@@ -41,6 +46,7 @@
     - name: relativistic magnetohydrodynamics, AGN feedback, and high energy physics.
 
 - name: Tzihong Chiueh
+  aka: Chiueh
   position: Professor
   email: chiuehth@phys.ntu.edu.tw
   bio : Tzihong Chiueh was born in Hsi-Tser (汐止), Taipei County, Nov. 29, 1955.  He obtained BS/Physics, MS/Physics and PhD/Physics in 1978, 1980 and 1985 from NTU, UCLA and UT Austin, respectively.  During 1985 to 1989, he worked as a postdoc fellow in University of Colorado in Boulder.  In 1989, he joined Physics Department, National Central University as a faculty member, and in 1992 he became a faculty member of the then newly formed Institute of Astronomy, National Central University, also serving as the Director.  Since 1998, he joined Physics Department NTU as a faculty member.  He also holds a joint appointment with Academia Sinica Institute of Astronomy and Astrophysics (ASIAA) ever since 1993.  In 1997-1999, he serves in National Science Council as the Co-Chairman of the Physics Research Review Committee.
@@ -49,6 +55,7 @@
   picture: 
 
 - name: 林俊佑 (Chun-Yu Lin)
+  aka: cliff
   position: Master
   begin_year_month: 2018-09
   email: cliff200905@gmail.com
@@ -59,3 +66,11 @@
   picture: /assets/images/members/cliff.jpg
   project:
     - name: Galactic Rotation Curves inside the Wave Dark Matter Halo
+
+- name: 鄧為寧 (Wei-Ning Deng)
+  aka: weininden
+  position : Master
+  begin_year_month : 2020-9
+  email : weininden@gmail.com
+  bio : "I graduated from the physics department of National Taiwan University. I have research experiences about dust evolution of galaxies, SMA observation project about dwarf galaxies, and Hawking radiation from Black Hole. Now I am working on applying wave dark matter to the evolution of Globular clusters."
+  picture: /assets/images/members/weininden.jpg

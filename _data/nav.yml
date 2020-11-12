@@ -1,6 +1,6 @@
-- name: Members
-  link: /members.html
 - name: Projects
   link: /projects.html
+- name: Members
+  link: /members.html
 - name: Publications
   link: /publications.html
