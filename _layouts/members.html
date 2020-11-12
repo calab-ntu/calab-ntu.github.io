@@ -45,7 +45,7 @@ layout: base
 						</div>
 						{% assign str_length = member.bio | size %}
 						{% if str_length > 200 %}
-						<a class="more_{{member.aka}}" style="inline">...more</a>
+						<a class="more_{{member.aka}}" style="display:inline;">...more</a>
 						<a class="less_{{member.aka}}" style="display:none;">...less</a>
 						<script>
 							$('.more_{{member.aka}}').click(function() {
