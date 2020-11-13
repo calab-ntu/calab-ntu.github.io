@@ -11,86 +11,165 @@ layout: base
 			{% for des in designations %}
 				<li><a href="#{{des}}">{{des}}</a></li>
 			{% endfor %}
+				<li><a href="#former">Former_Members</a></li>
 			</ul>
 		</div>
 
 		<div class="col-lg-8">
 			<div class="container-fluid list-container">
-			{% for des in designations %}
-			<div>
-				<h3 id={{des}}>{{des}}</h3>	
-			</div>
-			{% assign members = site.data.members | where: "position",des %}
-			{% for member in members %}
-			<div class="row">
-				<div class="col-md-2 offset-md-1">
-					{% if member['picture'] %}
-					<img src="{{member.picture}}">
-					{% endif %}
+				{% for des in designations %}
+				<div class="row">
+					<div class="col-md-8">
+						<h3 id={{des}}>{{des}}</h3>
+					</div>
 				</div>
-
-				<div class="col-md-8 offset-md-1">
-					<h4>{{ member.name }}</h4>
-					<ul>
-					<li>{{ member.position }}</li>
-
-					{% if member.homepage %}
-					<li><a href="{{ member.homepage }}">Homepage</a></li>
-					{% endif %}
-
-					<li>
-						Intro:<br>
-						<div class="intro" id="{{member.aka}}">
-						{{ member.bio }}
-						</div>
-						{% assign str_length = member.bio | size %}
-						{% if str_length > 200 %}
-						<a class="more_{{member.aka}}" style="display:inline;">...more</a>
-						<a class="less_{{member.aka}}" style="display:none;">...less</a>
-						<script>
-							$('.more_{{member.aka}}').click(function() {
-								$(this).css({'display':'none'});
-								$('.less_{{member.aka}}').css({'display':'inline'});
-								$('#{{member.aka}}').css({'max-height':'none'});
-							});
-						
-							$('.less_{{member.aka}}').click(function() {
-								$(this).css({'display':'none'});
-								$('.more_{{member.aka}}').css({'display':'inline'});
-								$('#{{member.aka}}').css({'max-height':'95px'});
-							});
-						</script>
+				{% assign members = site.data.members | where: "position",des %}
+				{% for member in members %}
+				{% if member.status == 'former' %}{% continue %}{% endif %}
+				<div class="row">
+					<div class="col-md-2 offset-md-1">
+						{% if member['picture'] %}
+						<img src="{{member.picture}}">
 						{% endif %}
-					</li>
+					</div>
 
-					{% if member.email %}
-					<li>
-					e-mail: <a href="{{member.email}}">{{ member.email}}</a>
-					</li>
-					{% endif %}
+					<div class="col-md-8 offset-md-1">
+						<h4>{{ member.name }}</h4>
+						<ul>
+							<li>{{ member.position }}</li>
+
+							{% if member.homepage %}
+							<li><a href="{{ member.homepage }}">Homepage</a></li>
+							{% endif %}
+
+							<li>
+								Intro:<br>
+								<div class="intro" id="{{member.aka}}">
+									{{ member.bio }}
+								</div>
+								{% assign str_length = member.bio | size %}
+								{% if str_length > 300 %}
+								<a class="more_{{member.aka}}" style="display:inline;">...more</a>
+								<a class="less_{{member.aka}}" style="display:none;">...less</a>
+								<script>
+									$('.more_{{member.aka}}').click(function() {
+										$(this).css({'display':'none'});
+										$('.less_{{member.aka}}').css({'display':'inline'});
+										$('#{{member.aka}}').css({'max-height':'none'});
+									});
+				
+									$('.less_{{member.aka}}').click(function() {
+										$(this).css({'display':'none'});
+										$('.more_{{member.aka}}').css({'display':'inline'});
+										$('#{{member.aka}}').css({'max-height':'95px'});
+									});
+								</script>
+								{% endif %}
+							</li>
+
+							{% if member.email %}
+							<li>
+								e-mail: <a href="{{member.email}}">{{ member.email}}</a>
+							</li>
+							{% endif %}
+
+							{% if member.end_year %}
+							<li>{{ member.begin_year }} ~ {{ member.end_year }}</li>
+							{% endif %}
 			
-					{% if member.end_year %}
-					<li>{{ member.begin_year }} ~ {{ member.end_year }}</li>
-					{% endif %}
-			
-					{% if member.project %}
-					<li>
-						Projects: 
-						{% for p in member.project %}
-						{% if p.url %}
-							<a href="{{p.url}}">{{ p.name }}</a>
-						{% else %}
-							{{ p.name }}
-						{% endif %}
-						{% endfor %}
-					</li>
-					{% endif %}
-					</ul>
+							{% if member.project %}
+							<li>
+								Projects: 
+								{% for p in member.project %}
+								{% if p.url %}
+									<a href="{{p.url}}">{{ p.name }}</a>
+								{% else %}
+									{{ p.name }}
+								{% endif %}
+								{% endfor %}
+							</li>
+							{% endif %}
+						</ul>
+					</div>
 				</div>
-			</div>
-			{% endfor %}
-			<hr>
-			{% endfor %}
+				{% endfor %}
+				<hr>
+				{% endfor %}
+				
+				<div class="row">
+					<div class="col-md-8">
+						<h3 id="former">Former</h3>
+					</div>
+				</div>
+				{% assign formers = site.data.members | where: "status","former" %}
+				{% for former in formers %}
+				<div class="row">
+					<div class="col-md-2 offset-md-1">
+						{% if former['picture'] %}
+						<img src="{{former.picture}}">
+						{% endif %}
+					</div>
+
+					<div class="col-md-8 offset-md-1">
+						<h4>{{ former.name }}</h4>
+						<ul>
+							<li>{{ former.position }}</li>
+
+							{% if former.homepage %}
+							<li><a href="{{ former.homepage }}">Homepage</a></li>
+							{% endif %}
+
+							<li>
+								Intro:<br>
+								<div class="intro" id="{{former.aka}}">
+									{{ former.bio }}
+								</div>
+								{% assign str_length = former.bio | size %}
+								{% if str_length > 300 %}
+								<a class="more_{{former.aka}}" style="display:inline;">...more</a>
+								<a class="less_{{former.aka}}" style="display:none;">...less</a>
+								<script>
+									$('.more_{{former.aka}}').click(function() {
+										$(this).css({'display':'none'});
+										$('.less_{{former.aka}}').css({'display':'inline'});
+										$('#{{former.aka}}').css({'max-height':'none'});
+									});
+				
+									$('.less_{{former.aka}}').click(function() {
+										$(this).css({'display':'none'});
+										$('.more_{{former.aka}}').css({'display':'inline'});
+										$('#{{former.aka}}').css({'max-height':'95px'});
+									});
+								</script>
+								{% endif %}
+							</li>
+
+							{% if former.email %}
+							<li>
+								e-mail: <a href="{{former.email}}">{{ member.email}}</a>
+							</li>
+							{% endif %}
+
+							{% if former.end_year_month %}
+							<li>{{ former.begin_year_month }} ~ {{ former.end_year_month }}</li>
+							{% endif %}
+			
+							{% if former.project %}
+							<li>
+								Projects: 
+								{% for p in former.project %}
+								{% if p.url %}
+									<a href="{{p.url}}">{{ p.name }}</a>
+								{% else %}
+									{{ p.name }}
+								{% endif %}
+								{% endfor %}
+							</li>
+							{% endif %}
+						</ul>
+					</div>
+				</div>
+				{% endfor %}
 			</div>
 		</div>
 	</div>
