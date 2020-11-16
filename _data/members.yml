@@ -1,3 +1,31 @@
+- name: 李奕廣 (Vicent Lee)
+  aka: vicent
+  position: Master
+  begin_year_month: 2019-09
+  email: vincentleebig@gmail.com
+  bio: I'm in the second year of the master's programs, I'm working on simulating star formation to find the possible physical answer of an observation result.
+  picture: /assets/images/members/vicent.jpg
+
+- name: 黃立鈞 (Li Chun Huang)
+  aka: liChun
+  position: Master
+  begin_year_month: 2019-07
+  email: r08244004@ntu.edu.tw
+  bio: A master student of astrophysics working about the tidal force effect of psiDM and CDM.
+  picture: /assets/images/members/liChun.jpg
+  project :  
+    - name: Compare different between psiDM and CDM under tidal force.
+
+- name: Chun-Yen Chen (陳俊延)
+  aka: chunyen
+  position: Master
+  begin_year_month: 2020-01
+  email: chunyenchen2019@gmail.com
+  bio: I am Chun-Yen. I was born in Kaohsiung. I like to play volleyball and try new things. Currently, I am adding the cosmic ray into GAMER.
+  project: 
+    - name: Cosmic Ray
+  picture: /assets/images/members/chunyen.jpg
+
 - name: 曾煒軒 (Tseng, Wei-Hsuan)
   aka: xuanweishan
   position: Research_Assistant
