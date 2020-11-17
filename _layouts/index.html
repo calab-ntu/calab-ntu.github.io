@@ -6,7 +6,7 @@ layout: base
 	<div class="row">
 		<div class="col-lg-6 offset-lg-3 text-center">
 			<h2>
-				About Us
+				ABOUT US
 			</h2>
 		</div>
 	</div>
@@ -18,14 +18,16 @@ layout: base
 	</div>
 
 	<div class="row text-center">
-		<div class="col-sm-2 offset-lg-3">
-			<a href="/projects.html">Porjects</a>
+		<div class="col-lg-6 offset-lg-3">
+		<div class="container-fluid">
+			<div class="row homepage-buttons">
+			{% for item in site.data.nav %}
+				<div class="col homepage-button">
+					<h6><a href="item.link">{{item.name}}</a></h6>
+				</div>
+			{% endfor %}
+			</div>
 		</div>
-		<div class="col-sm-2">
-			<a href="/members.html">Members</a>
-		</div>
-		<div class="col-sm-2">
-			<a href="/publications.html">Publications</a>
 		</div>
 	</div>
 
@@ -51,4 +53,5 @@ layout: base
 			<a href="/news.html">All news for our lab</a>
 		</div>
 	</div>
+	<br>
 </div>

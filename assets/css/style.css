@@ -3,6 +3,9 @@
 /*================================
        OVER ALL SETTINGS
 ================================*/
+body {
+	background-color: #FAFAFA;
+	}
 
 .list-container {
 	padding: 20px;
@@ -11,6 +14,7 @@
 .list-container img {
 	height: 180px;
 	float: center;
+	border-radius: 20px;
 	}
 
 .list-item_left {
@@ -29,7 +33,7 @@
 	border-style: solid;
 	border-radius: 5px;
 	border-width: 1px;
-	background-color: #D3D3D3;
+	background-color: #EEEEEE;
 	}
 
 .nav-member ul a {
@@ -102,12 +106,31 @@
 	padding: 10px;
 	}
 
+/*==================================
+        Homepage button
+===================================*/
+
+.homepage-buttons {
+	height: 40px;
+	background-color: #FFC788;
+	border-radius: 5px;
+	padding: 5px;
+	}
+
+.homepage-button{
+	padding: 2px;
+	}
+
+.homepage-button:hover {
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	}
 
 /* small screen rigin */
 
 @media(max-width:700px) {
 	.navbar {
-		height: 110px;
+		height: auto;
 		}
 	
 	.navbar-head {
