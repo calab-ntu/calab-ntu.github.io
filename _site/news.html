@@ -30,17 +30,28 @@
 <div class="container-fluid">
 	<div class="navbar-head">
 		<a href="/" >
-			NTU-CALAB
+			<i class="fas fa-calculator"></i>
+			<b>NTU-CALAB</b>
 		</a>
 	</div>
 
-<!--	<button>
-		<span class="sr-only">Toggle navigation</span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
+	<button class="nav-collapse-button" id="collapsed">
+		<i class="fas fa-bars"></i>
 	</button>
---!>
+
+	<script>
+		$('.nav-collapse-button').click(function() {
+			var thisId = $(this).attr('id')
+			if ( thisId == 'collapsed'){
+				$('.navbar-opts').css({'display':'inline'});
+				$(this).attr('id','shown');
+			} else if ( thisId == 'shown') {
+				$('.navbar-opts').css({'display':'none'});
+				$(this).attr('id','collapsed');
+			}
+		});
+	</script>
+
 	<div class="navbar-opts">
 		<ul>
 		

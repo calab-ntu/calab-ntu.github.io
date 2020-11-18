@@ -65,6 +65,16 @@ body {
 	display: block;
 	}
 
+.nav-collapse-button{
+	color: #FEBE90;
+	text-align: center;
+	border-style: solid;
+	border-color: #FEBE90;
+	border-radius: 5px;
+	width: 30px;
+	background-color: #790000;
+	}
+
 /*================================
           TITLE
 ================================*/
@@ -106,19 +116,23 @@ body {
 	padding: 10px;
 	}
 
+.footer-element a {
+	color: #FFFFFF;
+	}
+
 /*==================================
         Homepage button
 ===================================*/
 
 .homepage-buttons {
-	height: 40px;
+	height: auto;
 	background-color: #FFC788;
 	border-radius: 5px;
 	padding: 5px;
 	}
 
 .homepage-button{
-	padding: 2px;
+	padding: 5px;
 	}
 
 .homepage-button:hover {
@@ -135,13 +149,13 @@ body {
 	
 	.navbar-head {
 		text-align: center;
-		width: 100%;
 		}
 
 	.navbar-opts {	
 		width: 100%;
 		text-align: center;
 		margin: 0;
+		display: none;
 		}
 	
 	.navbar-opts ul {
@@ -154,8 +168,11 @@ body {
 	.navbar-opt li {
 		display: block;
 		}
+	
 	}
 
+
+/* large screen (computer version)*/
 @media(min-width:700px) {
 	.navbar-head {
 		text-align: center;
@@ -176,6 +193,10 @@ body {
 	.navbar-opts li {
 		display: inline;
 		float: left;
+		}
+
+	.nav-collapse-button{
+		display: none;
 		}
 	}
 
