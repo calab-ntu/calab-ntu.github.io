@@ -81,18 +81,18 @@ body {
 ================================*/
 
 .title {
-	height: 100px;
-	background-color: #010716;
+	height: 200px;
+	background-color: #030814;
 	display: block;
 	text-align: center;
 	background-image: url("/assets/images/title_background.jpg");
-	background-position: center left;
+	background-position: button left;
 	background-repeat: no-repeat;
 	}
 
 .title h1{
 	color: #FFFFFF;
-	padding: 20px;
+	padding: 45px;
 	text-transform: uppercase;
 	}
 
