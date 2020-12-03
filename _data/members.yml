@@ -1,6 +1,17 @@
+- name: 闕志鴻 (Tzihong Chiueh)
+  aka: Chiueh
+  position: Professor
+  desig: Professor
+  email: chiuehth@phys.ntu.edu.tw
+  bio : "Tzihong Chiueh was born in Hsi-Tser (汐止), Taipei County, Nov. 29, 1955.  He obtained BS/Physics, MS/Physics and PhD/Physics in 1978, 1980 and 1985 from NTU, UCLA and UT Austin, respectively.  During 1985 to 1989, he worked as a postdoc fellow in University of Colorado in Boulder.  In 1989, he joined Physics Department, National Central University as a faculty member, and in 1992 he became a faculty member of the then newly formed Institute of Astronomy, National Central University, also serving as the Director.  Since 1998, he joined Physics Department NTU as a faculty member.  He also holds a joint appointment with Academia Sinica Institute of Astronomy and Astrophysics (ASIAA) ever since 1993.  In 1997-1999, he serves in National Science Council as the Co-Chairman of the Physics Research Review Committee.
+
+      Tzihong Chiueh’s research interests include Theoretical Astrophysics, Computational Astrophysics and Astrophysics instrumentations.  He was awarded with the Outstanding Research Awards of National Science Council in 1991, 1994 and 2003, and was appointed as the NTU Distinguished Professor since 2007."
+  picture: /assets/images/members/chiueh.jpg 
+
 - name: 李奕廣 (Vicent Lee)
   aka: vicent
   position: Master
+  desig: Master
   begin_year_month: 2019-09
   email: vincentleebig@gmail.com
   bio: I'm in the second year of the master's programs, I'm working on simulating star formation to find the possible physical answer of an observation result.
@@ -9,6 +20,7 @@
 - name: 黃立鈞 (Li Chun Huang)
   aka: liChun
   position: Master
+  desig: Master
   begin_year_month: 2019-07
   email: r08244004@ntu.edu.tw
   bio: A master student of astrophysics working about the tidal force effect of psiDM and CDM.
@@ -19,6 +31,7 @@
 - name: Chun-Yen Chen (陳俊延)
   aka: chunyen
   position: Master
+  desig: Master
   begin_year_month: 2020-01
   email: chunyenchen2019@gmail.com
   bio: I am Chun-Yen. I was born in Kaohsiung. I like to play volleyball and try new things. Currently, I am adding the cosmic ray into GAMER.
@@ -28,7 +41,8 @@
 
 - name: 曾煒軒 (Tseng, Wei-Hsuan)
   aka: xuanweishan
-  position: Research_Assistant
+  position: Research Assistant
+  desig: Assistant
   begin_year_month: 2020-04
   email: xuanweishan@gmail.com
   bio: "Wei-Hsuan is a research asistant at NTU from April 2020. Helping build GPU clusters and mentian the system."
@@ -39,13 +53,15 @@
 
 - name: 胡德邦 (Tak Pong Woo)
   aka: bonwood
-  position: Assistant_Professor
+  position: Assistant Professor
+  desig: Professor
   email: bonwood@phys.ntu.edu.tw
   picture: /assets/images/members/bonwood.jpg
 
 - name: 許藝薰 (Yi-Hsiung Hsu, a.k.a Arthur Hsu)
   aka: arthurHsu
   position: Master
+  desig: Master
   begin_year_month: 2018-09
   email: arthurhsu3388@gmail.com
   bio: "I earned Bachelor of Science, department of physics at National Taiwan University at 2018. I'm now pursuing Master degree at National Taiwan University. My project is analyzing linear perturbations in universe of multi-component ultralight axion. We apply different approximations to alleviate the required time of calculating stiff evolution equations. These calculations are further promoted to multi-component universe."
@@ -56,6 +72,7 @@
 - name : 蘇冠銘 (Guna-Ming Su)
   aka: koarakawaii
   position : Ph.D
+  desig: Ph.D
   begin_year_month : 2020-08
   email : d07222009@ntu.edu.tw
   bio : "Hello, I am Guan-Ming Su. I was originally working on experimental condensed matter physics during my master and first two years Ph.D, but later found simulation and programming so interesting that I decided to switch to the current field. Now I am in the learning phase of cosmology simulation, especially about the large scale structure, and hope to catch on this cutting edge science with tons of unsolved problems leaving us to explore :)  "
@@ -66,6 +83,7 @@
 - name : 曾柏勳（Po-Hsun Tseng）
   aka: tseng
   position : Ph.D
+  desig: Ph.D
   begin_year_month : 2016
   email : zengbs@gmail.com
   bio : "I am interesting numerical analysis, data analysis, data visualization, and developing codes for dynamics simulation in astrophysical problems."
@@ -73,18 +91,10 @@
   project : 
     - name: relativistic magnetohydrodynamics, AGN feedback, and high energy physics.
 
-- name: Tzihong Chiueh
-  aka: Chiueh
-  position: Professor
-  email: chiuehth@phys.ntu.edu.tw
-  bio : "Tzihong Chiueh was born in Hsi-Tser (汐止), Taipei County, Nov. 29, 1955.  He obtained BS/Physics, MS/Physics and PhD/Physics in 1978, 1980 and 1985 from NTU, UCLA and UT Austin, respectively.  During 1985 to 1989, he worked as a postdoc fellow in University of Colorado in Boulder.  In 1989, he joined Physics Department, National Central University as a faculty member, and in 1992 he became a faculty member of the then newly formed Institute of Astronomy, National Central University, also serving as the Director.  Since 1998, he joined Physics Department NTU as a faculty member.  He also holds a joint appointment with Academia Sinica Institute of Astronomy and Astrophysics (ASIAA) ever since 1993.  In 1997-1999, he serves in National Science Council as the Co-Chairman of the Physics Research Review Committee.
-
-      Tzihong Chiueh’s research interests include Theoretical Astrophysics, Computational Astrophysics and Astrophysics instrumentations.  He was awarded with the Outstanding Research Awards of National Science Council in 1991, 1994 and 2003, and was appointed as the NTU Distinguished Professor since 2007."
-  picture: 
-
 - name: 林俊佑 (Chun-Yu Lin)
   aka: cliff
   position: Master
+  desig: Master
   begin_year_month: 2018-09
   email: cliff200905@gmail.com
   bio: "B.Sc. in Physics, National Taiwan University (2014~2018)
@@ -98,6 +108,7 @@
 - name: 鄧為寧 (Wei-Ning Deng)
   aka: weininden
   position : Master
+  desig: Master
   begin_year_month : 2020-9
   email : weininden@gmail.com
   bio : "I graduated from the physics department of National Taiwan University. I have research experiences about dust evolution of galaxies, SMA observation project about dwarf galaxies, and Hawking radiation from Black Hole. Now I am working on applying wave dark matter to the evolution of Globular clusters."
@@ -106,6 +117,7 @@
 - name: 華奕豪 (Yi-Hao Hua)
   aka: yiHao
   position : Master
+  desig: Master
   begin_year_month : 2019-11
   email : r05244003@ntu.edu.tw
   bio : "I was joining this lab at November 8th,2019 and my topic is soliton random walk in psidm simulation based on the paper 'Soliton Random Walk and the Cluster-Stripping Problem in Ultralight Dark Matter' by professor Hsi-Yu Schive, Tzihong Chiueh, and Tom Broadhurst. The object about this topic is finding out why will soliton random walk in the simulation? Did it affect by gluon or halo potential or something else? In advance , if we assure that the soliton random walk can be reproduce by local domain, we can even produce the simulation of Milky Way soliton random walk regardless of the extensive and massive loading on simulating the whole Milky Way. My job here is simulating different kind of halo and analyzing their soliton random walk to discover what behind them. It is a pleasure to learn in this lab and professor's teaching.  This is a fascinating subject to work on. "
@@ -117,6 +129,7 @@
   aka: edward
   status: former
   position: Master   
+  desig: Master
   current : PhD student in university of Edinburgh
   begin_year_month : 2015
   end_year_month: 2017

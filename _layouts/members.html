@@ -2,7 +2,7 @@
 layout: base
 ---
 
-{% assign designations = "Professor, Assistant_Professor, Research_Assistant, Ph.D, Master, Bachelor" | split: ", "%}
+{% assign designations = "Professor, Assistant, Ph.D, Master, Bachelor" | split: ", "%}
 
 <div class="container-fluid">
 	<div class="row">
@@ -15,7 +15,7 @@ layout: base
 			</ul>
 		</div>
 
-		<div class="col-lg-8">
+		<div class="col-lg-8 offset-lg-2">
 			<div class="container-fluid list-container">
 				{% for des in designations %}
 				<div class="row">
@@ -23,20 +23,20 @@ layout: base
 						<h3 id={{des}}>{{des}}</h3>
 					</div>
 				</div>
-				{% assign members = site.data.members | where: "position",des %}
+				{% assign members = site.data.members | where: "desig",des %}
 				{% for member in members %}
 				{% if member.status == 'former' %}{% continue %}{% endif %}
 				<div class="row">
-					<div class="col-md-2 offset-md-1">
+					<div class="col-md-2">
 						{% if member['picture'] %}
 						<img src="{{member.picture}}">
 						{% endif %}
 					</div>
 
-					<div class="col-md-8 offset-md-1">
+					<div class="col-md-8 offset-md-2">
 						<h4>{{ member.name }}</h4>
 						<ul>
-							<li>{{ member.position }}</li>
+							<li>Position: {{ member.position }}</li>
 
 							{% if member.homepage %}
 							<li><a href="{{ member.homepage }}">Homepage</a></li>
@@ -104,13 +104,13 @@ layout: base
 				{% assign formers = site.data.members | where: "status","former" %}
 				{% for former in formers %}
 				<div class="row">
-					<div class="col-md-2 offset-md-1">
+					<div class="col-md-2">
 						{% if former['picture'] %}
 						<img src="{{former.picture}}">
 						{% endif %}
 					</div>
 
-					<div class="col-md-8 offset-md-1">
+					<div class="col-md-8 offset-md-2">
 						<h4>{{ former.name }}</h4>
 						<ul>
 							<li>{{ former.position }}</li>

@@ -26,7 +26,7 @@ layout: base
 			</ul>
 		</div>
 		
-		<div class="col-lg-6 offset-lg-1">
+		<div class="col-lg-6 offset-lg-3">
 			{% assign y = 999999 %}
 			{% assign b2014 = false %}
 			{% for pub in publications %}
@@ -62,7 +62,7 @@ layout: base
 							{% for author in pub.authors %}
 							{{ author }}
 							{% if forloop.last != true %}
-						,
+							,
 							{% endif %}
 							{% endfor %}
 					

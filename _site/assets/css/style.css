@@ -12,9 +12,10 @@ body {
 	}
 
 .list-container img {
-	height: 180px;
+	max-height: 180px;
+	max-width: 180px;
 	float: center;
-	border-radius: 20px;
+	border-radius: 30px;
 	}
 
 .list-item_left {
@@ -81,9 +82,12 @@ body {
 
 .title {
 	height: 100px;
-	background-color: #622900;
+	background-color: #010716;
 	display: block;
 	text-align: center;
+	background-image: url("/assets/images/title_background.jpg");
+	background-position: center left;
+	background-repeat: no-repeat;
 	}
 
 .title h1{
@@ -142,7 +146,7 @@ body {
 
 /* small screen rigin */
 
-@media(max-width:700px) {
+@media(max-width:800px) {
 	.navbar {
 		height: auto;
 		}
@@ -168,12 +172,15 @@ body {
 	.navbar-opt li {
 		display: block;
 		}
+	.nav-member {
+		padding: 15px;
+		}
 	
 	}
 
 
 /* large screen (computer version)*/
-@media(min-width:700px) {
+@media(min-width:800px) {
 	.navbar-head {
 		text-align: center;
 		float: left;
@@ -197,6 +204,10 @@ body {
 
 	.nav-collapse-button{
 		display: none;
+		}
+	.nav-member {
+		padding: 15px;
+		position: fixed;
 		}
 	}
 
