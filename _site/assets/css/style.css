@@ -57,6 +57,9 @@ body {
 	height: 50px;
 	}
 
+.navbar-head a {
+	padding: 0;
+	}
 
 .navbar a {
 	color: #FEBE90;
@@ -91,8 +94,10 @@ body {
 	}
 
 .title h1{
+	font-size: 45px;
+	font-weight: bold;
 	color: #FFFFFF;
-	padding: 45px;
+	padding: 60px;
 	text-transform: uppercase;
 	}
 
