@@ -4,7 +4,7 @@ layout: base
 
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-lg-6 offset-lg-3 text-center">
+		<div class="col-lg-8 offset-lg-2 text-center">
 			<h2>
 				ABOUT US
 			</h2>
@@ -12,13 +12,13 @@ layout: base
 	</div>
 
 	<div class="row">
-		<div class="col-lg-6 offset-lg-3">
+		<div class="col-lg-8 offset-lg-2">
 			<p>Things about our lab</p>
 		</div>
 	</div>
 
 	<div class="row text-center">
-		<div class="col-lg-6 offset-lg-3">
+		<div class="col-lg-8 offset-lg-2">
 		<div class="container-fluid">
 			<div class="row homepage-buttons">
 				<div class="col homepage-button">
@@ -62,7 +62,7 @@ layout: base
 
 	{% for post in site.posts limit: 3 %}
 	<div class="row">
-		<div class="col-lg-6 offset-lg-3">
+		<div class="col-lg-8 offset-lg-2">
 			<h3>{{post.title}}</h3>
 			<p>{{ post.date | date: "%B %e, %Y" }}</p>
 			<p>{{ post.excerpt }}</p>
