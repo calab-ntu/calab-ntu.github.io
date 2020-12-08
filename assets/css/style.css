@@ -5,10 +5,15 @@
 ================================*/
 body {
 	background-color: #FAFAFA;
+	font-family: 'Noto Serif KR', serif;
 	}
 
 .list-container {
 	padding: 20px;
+	}
+
+.list-container .row {
+	margin-bottom: 20px;
 	}
 
 .list-container img {
@@ -149,9 +154,9 @@ body {
 
 /* small screen rigin */
 
-@media(max-width:700px) {
+@media(max-width:770px) {
 	.title h1 {
-		font-size: 30px;
+		font-size: 40px;
 		padding: 70px;
 		}
 
@@ -188,7 +193,7 @@ body {
 
 
 /* large screen (computer version)*/
-@media(min-width:700px) {
+@media(min-width:770px) {
 	.title h1 {
 		font-size: 50px;
 		padding: 65px;
