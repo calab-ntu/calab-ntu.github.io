@@ -16,16 +16,29 @@ body {
 	margin-bottom: 20px;
 	}
 
-.list-container img {
-	max-height: 180px;
-	max-width: 180px;
-	float: right;
-	border-radius: 30px;
-	}
-
 .list-item_left {
 	float: left;
 	}
+
+.project-image-container img {
+	max-height: 180px;
+	float: right;
+	overflow: hidden;
+	}
+
+.member-image-container{
+	display: inline-block;
+	position: relative;
+	height: 180px;
+	width: 180px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.member-image-container img{
+	width: 100%;
+	height: auto;
+}
 /*==============================
           SIDE BAR
 ===============================*/

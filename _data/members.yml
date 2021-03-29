@@ -140,3 +140,16 @@
   picture : /assets/images/members/edward.jpg
   project : 
     - name: "cosmological radiation transfer simulation -> cosmological radiation transportation simulation"
+
+- name : 陳雙雙 (Chen Shuang Shuang)
+  aka: shuang
+  status: 
+  position: Bachelor   
+  desig: Bachelor
+  current : 
+  begin_year_month : 2020-9
+  end_year_month: 
+  email : shuangshuang0411@gmail.com
+  bio : "I am a student at National Taiwan University Department of Physics. My research interests are dark matter and supermassive black holes. Now I am working on applying wave dark matter to the evolution of supermassive black holes."
+  picture : /assets/images/members/shuang.jpg
+  project : 
