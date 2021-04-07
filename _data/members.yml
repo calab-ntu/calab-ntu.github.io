@@ -153,3 +153,16 @@
   bio : "I am a student at National Taiwan University Department of Physics. My research interests are dark matter and supermassive black holes. Now I am working on applying wave dark matter to the evolution of supermassive black holes."
   picture : /assets/images/members/shuang.jpg
   project : 
+
+- name : 吳文華 (Wen-Hua Wu)
+  aka: albert
+  status: 
+  position: Master
+  desig: Master
+  current : 
+  begin_year_month : 
+  end_year_month: 
+  email : cololnist288@gmail.com
+  bio : "I am an undergraduate student in department of physics of NTU. My research topic is dark matter and astrophysical simulation. I am in the working group of GAMER, a GPU-accelerated adaptive mesh refinement code used in astrophysical simulation. In it, I completed a program of building the initial conditions (ICs) of particles in N-body simulations, which can be used to initialize physical parameters in certain astrophysical scenarios such as Fornax dwarf galaxy. My current research topic is Fornax cusp-core and timing problem. I plan to focus on research in wave dark matter simulation."
+  picture : /assets/images/members/albert.jpg
+  project : 
