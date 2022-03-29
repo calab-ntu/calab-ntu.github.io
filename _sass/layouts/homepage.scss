@@ -1,0 +1,31 @@
+.welcome-page{
+	height: 100vh;
+	//background-image: url(/assets/images/Title_background.gif);
+	//background-color: #123;
+	//background-size: cover;
+	//background-repeat: no-repeat;
+	//background-position: center center;
+	margin: 0;
+
+	H1{
+		padding: 48vh 0;
+		color: #FFFFFF;
+		text-align: center;
+		font-size: 7em;
+		font-family: 'Roboto', sans-serif;
+		//z-index: 2;
+		//background: #124124;
+	}
+}
+
+.background-video{
+	height: 100vh;
+	width: 100vw;
+	object-fit: cover;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+}

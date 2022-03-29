@@ -1,5 +1,4 @@
 <nav class="navbar">
-<div class="container-fluid">
 	<div class="navbar-head">
 		<a href="/" {% if page.url == "/" %}style="color: #FFFFFF;"{% endif %}>
 			<i class="fas fa-calculator"></i>
@@ -36,4 +35,24 @@
 		</ul>
 	</div>
 
-</nav>
+ </nav>
+
+ <script>
+ 	const debounce = (fn) =>{
+		let frame;
+		return (...params) =>{
+			if (frame){
+				cancelAnimationFrame(frame);
+			}
+			frame = requestAnimationFrame(() => {
+				fn(...params);
+			});
+		}
+	};
+	const storeScroll = () => {
+		document.documentElement.dataset.scroll = window.scrollY;
+	};
+
+	document.addEventListener('scroll',debounce(storeScroll), {passive:true});
+	storeScroll();
+ </script>

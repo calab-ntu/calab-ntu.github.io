@@ -1,0 +1,30 @@
+.title{
+	height:		14em;
+	display:	block;
+	text-align:	center;
+	background-color:	#030814;
+	background-image:	url("/assets/images/title_background.jpg");
+	background-repeat:	no-repeat;
+	background-position:	button left;
+
+	h1{
+		margin: 0;
+		color:	#FFFFFF;
+		font-family: 'Rye', cursive;
+		text-transform: uppercase;
+	}
+}
+
+@media(max-width:500px){
+	.title h1{
+		padding: 7em 0;
+		font-size: 45px;
+	}
+}
+
+@media(min-width:500px){
+	.title h1{
+		padding: 14vh 0;
+		font-size: 55px;
+	}
+}
