@@ -1,6 +1,6 @@
 /* General regin */
 /*================================ OVER ALL SETTINGS ================================*/
-body { background-color: #FAFAFA; font-family: 'Noto Serif KR', serif; scroll-behavior: smooth; }
+body { background-color: #FAFAFA; font-family: 'Noto Serif KR', serif; }
 
 .list-container { padding: 20px; }
 
@@ -17,11 +17,11 @@ body { background-color: #FAFAFA; font-family: 'Noto Serif KR', serif; scroll-be
 
 .intro { max-height: 95px; overflow: hidden; text-overflow: ellipsis; }
 
+.list-container a { color: black; }
+
 .member-image-container { display: inline-block; position: relative; height: 180px; width: 180px; overflow: hidden; border-radius: 50%; }
 
 .member-image-container img { width: 100%; height: auto; }
-
-a { color: black; }
 
 .nav-member { padding: 15px; }
 

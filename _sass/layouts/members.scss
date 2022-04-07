@@ -5,6 +5,12 @@
 	text-overflow: ellipsis;
 }
 
+.list-container{
+	a{
+		color: black;
+	}
+}
+
 // Image //
 .member-image-container{
 	display: inline-block;
@@ -21,9 +27,6 @@
 }
 
 
-	a{
-		color: black;
-	}
 
 // side bar //
 .nav-member{
