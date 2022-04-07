@@ -36,7 +36,7 @@ layout: base
 					</div>
 
 					<div class="col-md-8">
-						<h4>{{ member.name }}</h4>
+						<h4><a href="{{member.email}}">{{ member.name }}</a></h4>
 						<ul>
 							<li>Position: {{ member.position }}</li>
 
@@ -147,13 +147,13 @@ layout: base
 								</script>
 								{% endif %}
 							</li>
-
+							<!--
 							{% if former.email %}
 							<li>
 								e-mail: <a href="{{former.email}}">{{ member.email}}</a>
 							</li>
 							{% endif %}
-
+							--!>
 							{% if former.end_year_month %}
 							<li>{{ former.begin_year_month }} ~ {{ former.end_year_month }}</li>
 							{% endif %}

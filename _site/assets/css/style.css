@@ -1,6 +1,6 @@
 /* General regin */
 /*================================ OVER ALL SETTINGS ================================*/
-body { background-color: #FAFAFA; font-family: 'Noto Serif KR', serif; }
+body { background-color: #FAFAFA; font-family: 'Noto Serif KR', serif; scroll-behavior: smooth; }
 
 .list-container { padding: 20px; }
 
@@ -8,58 +8,65 @@ body { background-color: #FAFAFA; font-family: 'Noto Serif KR', serif; }
 
 .list-item_left { float: left; }
 
-.project-image-container img { max-height: 180px; float: right; overflow: hidden; }
+/*============================== LAYOUTS ===============================*/
+.welcome-page { height: 100vh; margin: 0; }
+
+.welcome-page H1 { padding: 52vh 0; color: #FFFFCC; text-align: center; font-size: 7em; font-family: 'Rye', sans-serif; }
+
+.background-video { height: 100vh; width: 100vw; object-fit: cover; position: fixed; left: 0; right: 0; top: 0; bottom: 0; z-index: -1; }
+
+.intro { max-height: 95px; overflow: hidden; text-overflow: ellipsis; }
 
 .member-image-container { display: inline-block; position: relative; height: 180px; width: 180px; overflow: hidden; border-radius: 50%; }
 
 .member-image-container img { width: 100%; height: auto; }
 
-/*============================== SIDE BAR ===============================*/
+a { color: black; }
+
 .nav-member { padding: 15px; }
 
 .nav-member ul { list-style: none; padding: 0; border-style: solid; border-radius: 5px; border-width: 1px; background-color: #EEEEEE; }
 
-.nav-member ul a { color: black; display: block; padding: 0px 10px; text-decoration: none; }
+.nav-member ul a { color: black; display: block; padding: 0 10px; text-decoration: none; border-style: none; border-radius: 5px; }
 
-.nav-member li a:hover { background-color: #FFFFFF; }
+.nav-member ul a:hover { background-color: #FFFFFF; }
 
-/*================================ NAV ================================*/
-.navbar { text-transform: uppercase; background-color: #030814; height: 50px; }
+@media (max-width: 992px) { .nav-member { padding: 15px; } }
 
-.navbar-head a { padding: 0; }
+@media (min-width: 992px) { .nav-member { padding: 15px; position: fixed; } }
 
-.navbar a { color: #FEBE90; text-align: center; text-decoration: none; padding: 0px 14px; display: block; }
+.project-image-container img { max-height: 180px; float: right; overflow: hidden; }
 
-.nav-collapse-button { color: #FFFFFF; text-align: center; border-style: solid; border-color: #FFFFFF; border-radius: 5px; width: 30px; background-color: #030814; }
+/*================================ COMPONENTS ================================*/
+/*NAV*/
+.navbar { text-transform: uppercase; height: 3em; width: 100vw; position: fixed; z-index: 1; background-color: transparent; transition: background-color 0.1s linear; }
 
-/*================================ TITLE ================================*/
-.title { height: 200px; background-color: #030814; display: block; text-align: center; background-image: url("/assets/images/title_background.jpg"); background-position: button left; background-repeat: no-repeat; }
+.navbar a { color: #FEBE90; text-align: center; text-decoration: none; padding: 0px 1em; display: block; font-family: 'Roboto', serif; }
 
-.title h1 { color: #FFFFFF; text-transform: uppercase; font-family: 'Rye', cursive; }
+.navbar a:hover { color: #CDB806; }
 
-/*================================ MEMBER INTRO =================================*/
-.intro { max-height: 95px; overflow: hidden; text-overflow: ellipsis; }
+.navbar .navbar-head a { padding: 0; font-family: 'Roboto', serif; }
 
-/*================================ FOOTER ================================*/
-.footer { color: #FFFFFF; background-color: #000000; height: auto; }
+.navbar .nav-collapse-button { color: #FFFFFF; text: center; width: 30px; margin: 0px 10px; border-style: solid; border-color: #FFFFCC; border-radius: 5px; background-color: #030814; }
 
-.footer-element { padding: 10px; }
+html:not([data-scroll='0']) .navbar { background-color: #030814; }
 
-.footer-element a { color: #FFFFFF; }
+@media (max-width: 776px) { .navbar { height: auto; } .navbar-head { text-align: center; } .navbar-opts { width: 100%; text-align: center; margin: 0; display: none; } .navbar-opts ul { list-style-type: none; margin: 0; padding: 0; overflow: hidden; } .navbar-opts li { display: block; } }
 
-/*================================== Homepage button ===================================*/
-.homepage-buttons { height: auto; }
+@media (min-width: 776px) { .navbar-head { text-align: center; float: left; display: block; } .navbar-opts { list-style-type: none; margin: 0; padding: 0; float: right; display: block; } .navbar-opts ul { text-align: center; } .navbar-opts li { display: inline; float: left; } .nav-collapse-button { display: none; } }
 
-.homepage-button { border-radius: 5px; padding: 10px; margin: 5px; padding: 0; }
+.title { height: 14em; display: block; text-align: center; background-color: #030814; background-image: url("/assets/images/title_background.jpg"); background-repeat: no-repeat; background-position: button left; }
 
-.homepage-button i { margin: 0; color: black; width: 100%; border-radius: 5px; }
+.title h1 { margin: 0; color: #FFFFCC; font-family: 'Rye', cursive; text-transform: uppercase; }
 
-.homepage-button a { color: black; }
+@media (max-width: 500px) { .title h1 { padding: 7em 0; font-size: 45px; } }
 
-/* small screen rigin */
-@media (max-width: 770px) { .title h1 { font-size: 45px; padding: 70px; } .navbar { height: auto; } .navbar-head { text-align: center; } .navbar-opts { width: 100%; text-align: center; margin: 0; display: none; } .navbar-opts ul { list-style-type: none; margin: 0; padding: 0; overflow: hidden; } .navbar-opt li { display: block; } .nav-member { padding: 15px; } }
+@media (min-width: 500px) { .title h1 { padding: 14vh 0; font-size: 55px; } }
 
-/* large screen (computer version)*/
-@media (min-width: 770px) { .title h1 { font-size: 55px; padding: 65px; } .navbar-head { text-align: center; float: left; } .navbar-opts { list-style-type: none; margin: 0; padding: 0; float: right; } .navbar-opts ul { text-align: center; } .navbar-opts li { display: inline; float: left; } .nav-collapse-button { display: none; } .nav-member { padding: 15px; position: fixed; } }
+.footer { color: #FFFFFF; height: auto; background: #000000; }
+
+.footer .footer-element { padding: 10px; }
+
+.footer .footer-element a { color: #FFFFFF; }
 
 /*# sourceMappingURL=style.css.map */

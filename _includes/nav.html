@@ -1,6 +1,6 @@
 <nav class="navbar">
 	<div class="navbar-head">
-		<a href="/" {% if page.url == "/" %}style="color: #FFFFFF;"{% endif %}>
+		<a href="/" {% if page.url == "/" %}style="color: #FFFFCC;"{% endif %}>
 			<i class="fas fa-calculator"></i>
 			<b>NTU-CALAB</b>
 		</a>
@@ -27,7 +27,7 @@
 		<ul>
 		{% for item in site.data.nav %}
 			<li>
-				<a href="{{ item.link }}" {% if page.url == item.link %}style="color: #FFFFFF;"{% endif %}>
+				<a href="{{ item.link }}" {% if page.url == item.link %}style="color: #FFFFCC;"{% endif %}>
 					{{ item.name }}
 				</a>
 			</li>

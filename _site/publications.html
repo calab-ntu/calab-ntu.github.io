@@ -30,7 +30,6 @@
 
 <body>
 <nav class="navbar">
-<div class="container-fluid">
 	<div class="navbar-head">
 		<a href="/" >
 			<i class="fas fa-calculator"></i>
@@ -59,6 +58,12 @@
 		<ul>
 		
 			<li>
+				<a href="/news.html" >
+					News
+				</a>
+			</li>
+		
+			<li>
 				<a href="/projects.html" >
 					Projects
 				</a>
@@ -71,7 +76,7 @@
 			</li>
 		
 			<li>
-				<a href="/publications.html" style="color: #FFFFFF;">
+				<a href="/publications.html" style="color: #FFFFCC;">
 					Publications
 				</a>
 			</li>
@@ -91,7 +96,27 @@
 		</ul>
 	</div>
 
-</nav>
+ </nav>
+
+ <script>
+ 	const debounce = (fn) =>{
+		let frame;
+		return (...params) =>{
+			if (frame){
+				cancelAnimationFrame(frame);
+			}
+			frame = requestAnimationFrame(() => {
+				fn(...params);
+			});
+		}
+	};
+	const storeScroll = () => {
+		document.documentElement.dataset.scroll = window.scrollY;
+	};
+
+	document.addEventListener('scroll',debounce(storeScroll), {passive:true});
+	storeScroll();
+ </script>
 
 <header>
 <div class="container-fluid">
@@ -3134,7 +3159,7 @@
 			<p>
 				National Taiwan University<br>
 				No. 1, Sec. 4, Roosevelt Rd., Taipei 10617, Taiwan (R.O.C.)<br>
-				Phone：+886-2-3366-3366
+				Phone：+886-2-3366-8644
 			</p>
 			<p>©2020 NTU-CALAB</p>
 		</div>

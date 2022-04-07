@@ -1,3 +1,5 @@
+- name: News
+  link: /news.html
 - name: Projects
   link: /projects.html
 - name: Members
