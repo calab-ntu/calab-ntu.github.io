@@ -13,7 +13,14 @@
 		//z-index: 2;
 		//background: #124124;
 		text-shadow: 3px 3px black, 0 0 5px #0000CC;
+		opacity: 1;
+		animation: fade 1s linear;
 	}
+}
+
+@keyframes fade{
+	0% {opacity: 0}
+	100% {opacity:1}
 }
 
 .background-video{
