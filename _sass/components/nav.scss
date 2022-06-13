@@ -12,10 +12,11 @@
 	a{
 		color:		#FEBE90;
 		text-align:	center;
+		font-size:	18px;
 		text-decoration:none;
 		padding:	0px 1em;
 		display:	block;
-		font-family: 'Roboto', serif;
+		font-family:	'Volkhov', cursive;
 
 		&:hover{
 			color:	#CDB806;
@@ -25,7 +26,6 @@
 	.navbar-head{
 		a{
 			padding: 0;
-			font-family: 'Roboto', serif;
 		}
 	}
 	.nav-collapse-button{
