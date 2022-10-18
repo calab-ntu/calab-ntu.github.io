@@ -25,6 +25,8 @@
 	<!-- Google font -->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200&family=Rye&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Volkhov&family=Roboto:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 </head>
 
 
@@ -52,6 +54,14 @@
 				$(this).attr('id','collapsed');
 			}
 		});
+
+		function on_resize(c,t){onresize=function(){clearTimeout(t);t=setTimeout(c,100)};return c};
+		on_resize( function(){
+			var navSpace = $('.navbar').outerWidth();
+			if (navSpace > 890 ) {
+				$('.navbar-opts').show();
+			}
+		});
 	</script>
 
 	<div class="navbar-opts">
@@ -76,6 +86,12 @@
 			</li>
 		
 			<li>
+				<a href="/gallery.html" >
+					Gallery
+				</a>
+			</li>
+		
+			<li>
 				<a href="/publications.html" style="color: #FFFFCC;">
 					Publications
 				</a>
@@ -95,6 +111,7 @@
 		
 		</ul>
 	</div>
+
 
  </nav>
 

@@ -1,0 +1,5 @@
+- image_name: example_image
+  path: /assets/images/gallery/project1.jpg
+  info:
+    owner: Tseng, Wei-Hsuan
+    description: gallery example image

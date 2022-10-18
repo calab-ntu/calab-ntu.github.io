@@ -1,0 +1,29 @@
+---
+layout: base
+---
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="gallery" id="gallery">
+		{% for image in site.data.gallery %}
+			<div class="gimage">
+				<img src='{{ image.path }}'></img>
+				<a href='#{{ image.image_name }}'>{{ image.image_name}}</a>
+			</div>
+		{% endfor %}
+		</div>
+		{% for image in site.data.gallery %}
+		<div class="lightbox" id="{{ image.image_name }}">
+			<div id="content">
+				<img src='{{ image.path }}'></img>
+				<div id='title'>
+					<b>{{ image.image_name }}</b> <br>
+					{{ image.info.owner }},
+					{{ image.info.description }}
+				</div>
+				<a class="close" href="#gallery"></a>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>
