@@ -5,7 +5,7 @@
 	background-color:	#003300;
 	background-image:	url("/assets/images/new_title_background1.jpg");
 	background-repeat:	no-repeat;
-	background-position:	button left;
+	background-position:	center left;
 
 	h1{
 		margin: 0;
@@ -23,8 +23,16 @@
 }
 
 @media(min-width:500px){
-	.title h1{
-		padding: 1.5em 0;
-		font-size: 55px;
+	.title{
+		h1{
+			padding: 1.5em 0;
+			font-size: 55px;
+		}
+	}
+}
+
+@media(min-width:1300px){
+	.title{
+		background-size: 100%;
 	}
 }
