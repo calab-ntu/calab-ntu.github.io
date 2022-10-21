@@ -4,18 +4,27 @@ layout: base
 
 <div class="container-fluid">
 	<div class="row">
+		<div class="col">
 		<div class="gallery" id="gallery">
 		{% for image in site.data.gallery %}
 			<div class="gimage">
-				<img src='{{ image.path }}'></img>
+				<img src='{{ image.image_path }}'></img>
 				<a href='#{{ image.image_name }}'>{{ image.image_name}}</a>
 			</div>
 		{% endfor %}
 		</div>
+		</div>
 		{% for image in site.data.gallery %}
 		<div class="lightbox" id="{{ image.image_name }}">
 			<div id="content">
-				<img src='{{ image.path }}'></img>
+				{% if image.video_path %}
+				<video autoplay muted>
+					<source src='{{ image.video_path }}' type="video/mp4">
+					Video not supported
+				</video>
+				{% else %}
+				<img src='{{ image.image_path }}'></img>
+				{% endif %}
 				<div id='title'>
 					<b>{{ image.image_name }}</b> <br>
 					{{ image.info.owner }},

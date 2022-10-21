@@ -82,6 +82,9 @@ $size: 6;
 		img {
 			filter: blur(0);
 		}
+		video {
+			filter: blur(0);
+		}
 	}
 	position: fixed;
 	top: 0;
@@ -91,6 +94,7 @@ $size: 6;
 	background-color: rgba(black, 0.5);
 	display: flex;
 	opacity: 0;
+	z-index: 1;
 	transition: opacity 450ms ease-in-out;
 	align-items: center;
 	justify-content: center;
@@ -145,6 +149,14 @@ $size: 6;
 		padding: 0;
 		filter: blur(50px);
 	}
+	video {
+		max-height: 90vh;
+		max-width: 100%;
+		margin: 0;
+		padding: 0;
+		filter: blur(50px);
+	}
+
 	a.close {
 		width: 2em;
 		height: 2em;

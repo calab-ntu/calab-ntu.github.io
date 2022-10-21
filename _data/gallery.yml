@@ -1,5 +1,12 @@
 - image_name: example_image
-  path: /assets/images/gallery/project1.jpg
+  image_path: /assets/images/gallery/project1.jpg
+  video_path:
   info:
     owner: Tseng, Wei-Hsuan
     description: gallery example image
+- image_name: Wave dark matter halo
+  image_path: /assets/images/Title_background.png
+  video_path: /assets/images/gallery/wave_dark_matter_halo.mp4
+  info:
+    owner: Hsi-Yu Schive
+    description: 
