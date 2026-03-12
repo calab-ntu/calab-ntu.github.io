@@ -1,0 +1,48 @@
+---
+layout: default
+title: Members - CALab
+permalink: /members/
+
+hero_title: Members
+hero_bg_image: /assets/img/colliding_waveDM_halo.webp
+---
+
+<section id="members-list" class="">
+    <div class="container">
+        {% assign all_members = site.data.members %}
+        {% assign member_roles = site.data.member_roles.roles %}
+
+        {% for role in member_roles %}
+            {% assign role_id = role.id %}
+            {% assign role_title = role.title %}
+
+            {% assign members_list = all_members | where: 'role', role_id | where: 'status', 'current' %}
+            
+            <div id="{{ role_id }}-section" class="pt-5 bg-body-tertiary border {% unless forloop.first %}mt-5{% endunless %}">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="mb-3">{{ role_title }}</h2>
+                    </div>
+                </div>
+
+                <div class="row pb-4 justify-content-center">
+                    {% if members_list.size > 0 %}
+                        {% for member in members_list %}
+                            {% include member_card.html member=member %}
+                        {% endfor %}
+                    {% else %}
+                        <span class="text-center text-secondary">Currently no {{ role_id }} members.</span>
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}
+
+        <div class="row mt-5">
+            <div class="col-lg-12 text-center">
+                <a href="{{ '/members/previous/' | relative_url }}" class="btn btn-outline-primary btn-lg">
+                    View Previous Members &rarr;
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
