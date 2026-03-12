@@ -1,0 +1,66 @@
+---
+layout: default
+title: Previous Members - CALab
+permalink: /members/previous/
+
+hero_title: Previous Members
+hero_bg_image: /assets/img/colliding_waveDM_halo.webp
+---
+
+<section id="previous-members-list" class="">
+    <div class="container">
+        {% assign all_members = site.data.members | sort: "end" %}
+        {% assign member_roles = site.data.member_roles.roles %}
+
+        {% for role in member_roles %}
+            {% assign role_id = role.id %}
+            {% assign role_title = role.title %}
+
+            {% assign members_list = all_members | where: 'role', role_id | where: 'status', 'previous' %}
+            {% if members_list.size > 0 %}
+            <div id="{{ role_id }}-section" class="pt-5 bg-body-tertiary border">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading mb-3">{{ role_title }}</h2>
+                    </div>
+                </div>
+
+                <div class="row pb-4 justify-content-center table-responsive-md">
+                    <table class="table table-striped table-sm members-table text-center">
+                    <thead>
+                        <tr>
+                            <th class="text-start w-60"><b>Name</b></th>
+                            <th><b>Period</b></th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        {% for member in members_list %}
+                        <tr>
+                            <td class="text-start">
+                                {{ member.english_name }}
+                                {% if member.native_name %}({{ member.native_name }}){% endif %}
+                            </td>
+                            <td class="period text-center">
+                                {%- if member.begin -%}{{ member.begin }}{%- else %}    {% endif -%}
+                                {%- if member.begin or member.end -%}-{%- endif -%}
+                                {%- if member.end -%}{{ member.end }}{%- else %}    {% endif -%}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                    </table>
+                </div>
+            </div>
+            {% endif %}
+        {% endfor %}
+
+        <div class="row mt-5">
+            <div class="col-lg-12 text-center">
+                <a href="{{ '/members/' | relative_url }}" class="btn btn-outline-primary btn-lg">
+                    &larr; Back to Current Members
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

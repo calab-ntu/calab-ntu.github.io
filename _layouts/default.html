@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+{% include head.html %}
+</head>
+
+
+{% comment %} Set body class based on page properties {% endcomment %}
+{% if page.bg_image %}
+    {% assign body_class = 'body-home-bg' %}
+    {% assign bg_image_url = page.bg_image | relative_url %}
+
+{% endif %}
+
+<body class="d-flex flex-column min-vh-100 {{ body_class }}"
+      {% if bg_image_url %}
+        style="background-image: url('{{ bg_image_url }}');"
+      {% endif %}
+      data-bs-theme="dark"
+>
+
+    <header>
+        {% include navbar.html %}
+    </header>
+    {% if page.hero_title %}
+        {% include hero.html %}
+    {% endif %}
+
+   <main class="{% if page.hero_title %} py-5 px-4 {% else %} pt-navbar {% endif %}">
+        {{ content }}
+    </main>
+
+    {% include footer.html %}
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{{ '/assets/js/nav-bar-animation.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/publication_filter.js' | relative_url }}"></script>
+    <script src="{{'/assets/js/click-copy.js' | relative_url }}"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+
+    <script>
+    window.MathJax = {
+        tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+        }
+    };
+    </script>
+
+
+</body>
+
+</html>

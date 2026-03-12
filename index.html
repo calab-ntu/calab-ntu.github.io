@@ -1,0 +1,77 @@
+---
+layout: default
+title: Computational Astrophysics Lab
+permalink: /
+
+bg_image: /assets/img/volume_rendering.webp
+---
+
+<section id="hero" class="masthead-full d-flex align-items-center">
+    <div class="container text-center text-white text-shadow-dark">
+        <!-- Main Title -->
+        <h1 class="display-4 fw-bolder mb-4">NTU Computational Astrophysics Lab</h1>
+        
+        <!-- Subtitle -->
+        <p class="display-6 fw-normal mb-5">High-Performance Simulations of the Universe</p>
+
+        <!-- Dynamic Scroll Indicator -->
+        <div class="mt-5">
+            <a href="#about" class="text-white text-decoration-none">
+                <i class="fa-solid fa-circle-chevron-down fa-3x"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="py-2">
+    <div class="container py-3 border bg-glass">
+        <div class="row pb-2">
+            <div class="col-12 text-center">
+                <h2 class="fw-bold">About Us</h2>
+            </div>
+        </div>
+
+        <div class="row align-items-center g-5 px-3">
+            <div class="col-lg-7 pb-4 g-5">
+                <p class="lead">
+                    The Computational Astrophysics Lab (CALab) uses large-scale numerical simulations to explore the physics of the Universe.
+                </p>
+
+                <div class="mb-4">
+                    <h4 class="h6 mb-3">Our research directions:</h4>
+
+                    <div class="mb-3 align-items-start d-flex text-info fw-bold">
+                        <span class="badge rounded-pill monospaced mx-2">1.</span>
+                        <span>Investigating the distinctive wave nature of fuzzy dark matter</span>
+                    </div>
+                    <div class="mb-3 align-items-start d-flex text-info fw-bold">
+                        <span class="badge rounded-pill monospaced mx-2">2.</span>
+                        <span>Developing GAMER, a multi-GPU-accelerated AMR code for astrophysical simulations</span>
+                    </div>
+                    <div class="mb-3 align-items-start d-flex text-info fw-bold">
+                        <span class="badge rounded-pill monospaced mx-2">3.</span>
+                        <span>Conducting collaborative, GAMER-based projects spanning galaxy clusters, dwarf galaxies, core-collapse supernovae, and star formation</span>
+                    </div>
+                </div>
+
+                <p class="small text-muted mb-4">
+                    See <a href="{{ '/research' | relative_url }}" class="text-decoration-none border-bottom">Research</a> and
+                    <a href="{{ '/publications' | relative_url }}" class="text-decoration-none border-bottom">Publications</a> for details.
+                </p>
+
+                <a href="{{ '/contact' | relative_url }}" class="btn btn-outline-primary btn-sm">
+                    Join Our Group <i class="fa-solid fa-arrow-right ms-1"></i>
+                </a>
+            </div>
+
+            <div class="col-lg-5">
+                <div class="ratio ratio-1x1 shadow-lg rounded-3 overflow-hidden border border-secondary border-opacity-25"> 
+                    <video src="{{ 'assets/video/halo_40s.webm' | relative_url }}"
+                           poster="{{ 'assets/img/volume_rendering.webp' | relative_url }}"
+                           autoplay loop muted playsinline preload="auto">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,128 @@
+---
+layout: default
+title: Publication - CALab
+permalink: /publications/
+
+hero_title: Publications
+hero_bg_image: /assets/img/colliding_waveDM_halo.webp
+---
+
+<section id="publications" class="container">
+    <div class="row">
+        <!-- Faceted Search Sidebar -->
+        <aside class="col-lg-3">
+            <!-- Mobile Filter Toggle -->
+            <div class="d-lg-none mb-4">
+                <button class="btn btn-primary w-100 d-flex align-items-center justify-content-center" type="button" data-bs-toggle="collapse" data-bs-target="#filterSidebar" aria-expanded="false" aria-controls="filterSidebar">
+                    <i class="fa fa-filter me-2"></i> Filter
+                </button>
+            </div>
+
+            <div class="collapse d-lg-block publication-sidebar" id="filterSidebar">
+                <div class="d-flex justify-content-between align-items-center mb-4 pe-2">
+                    <h4 class="h5 fw-bold">Browse By</h4>
+                    <button id="clear-all-filters" class="btn btn-sm btn-outline-secondary py-1 px-2" style="font-size: 0.75rem;">
+                        Clear All
+                    </button>
+                </div>
+
+                <!-- Year Filter -->
+                <div class="mb-4">
+                    <button class="btn d-flex align-items-center justify-content-between w-100 p-0 mb-3" 
+                            type="button" data-bs-toggle="collapse" data-bs-target="#year-collapse" 
+                            aria-expanded="false" aria-controls="year-collapse">
+                        <span class="fw-bold">Year</span>
+                        <i class="fa fa-chevron-down transition-rotate"></i>
+                    </button>
+                    
+                    <div class="collapse" id="year-collapse">
+                        {% assign years = site.data.publications | map: "year" | uniq | sort | reverse %}
+                        <ul class="list-unstyled filter-list ps-3">
+                            {% for year in years %}
+                            <li class="mb-2">
+                                <div class="form-check">
+                                    <input type="checkbox" id="year-{{ year }}" data-group="year" data-filter="{{ year }}"
+                                        class="form-check-input pub-filter-checkbox" />
+                                    <label for="year-{{ year }}" class="form-check-label monospaced small">{{ year }}</label>
+                                </div>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+
+                <hr class="my-4 opacity-10">
+
+                <!-- Tags / Topics Filter -->
+                <div class="mb-4">
+                    <h5 class="h6 fw-bold mb-3">Tags</h5>
+                    {% assign all_tags = site.data.publications | map: "tags" | flatten | uniq | sort %}
+                    <ul class="list-unstyled filter-list ps-3">
+                        {% for tag in all_tags %}
+                        <li class="mb-2">
+                            <div class="form-check">
+                                <input type="checkbox" id="tag-{{ tag | slugify }}" data-group="tag"
+                                    data-filter="{{ tag | slugify }}" class="form-check-input pub-filter-checkbox" />
+                                <label for="tag-{{ tag | slugify }}" class="form-check-label small text-capitalize">{{ tag }}</label>
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Publication List -->
+        <div class="col-lg-9">
+            <div class="mb-4 d-flex justify-content-end align-items-center flex-wrap gap-3">
+                <a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Schive%2C%20Hsi-Yu%22&sort=date%2C%20bibcode%20desc&p_=0" 
+                   target="_blank" class="btn btn-sm btn-outline-primary rounded-pill px-3">
+                    <i class="fa-solid fa-square-poll-vertical me-2"></i>NASA ADS
+                </a>
+                <a href="https://scholar.google.com/citations?user=9i298C0AAAAJ&hl=en" 
+                   target="_blank" class="btn btn-sm btn-outline-primary rounded-pill px-3">
+                    <i class="fa-solid fa-graduation-cap me-2"></i>Google Scholar
+                </a>
+            </div>
+
+            <ol class="publication-ol">
+            {% assign sorted_pubs = site.data.publications %}
+            {% for pub in sorted_pubs %}
+
+            {% comment %}
+            tags: Combine year, month, and custom tags
+            Note: data-tags content format: "YYYY TAG1 TAG2"
+            {% endcomment %}
+            {% assign year_tag = pub.year | append: '' %}
+            {% assign slugified_tags = pub.tags | map: 'slugify' | join: ' ' %}
+
+            <!-- {% assign all_tags = year_tag | append: ' ' | append: slugified_tags %} -->
+            {% assign all_tags_list = pub.year | append: '' %}
+            {% for tag in pub.tags %}
+            {% comment %} Step 1: Process single tag and slugify {% endcomment %}
+            {% assign slugified_tag = tag | slugify %}
+
+            {% comment %} Step 2: Append space and processed tag to main string {% endcomment %}
+            {% assign all_tags_list = all_tags_list | append: ' ' | append: slugified_tag %}
+            {% endfor %}
+
+            <li class="text-muted publication" data-tags="{{ all_tags_list | strip }}"
+                data-year="{{ pub.year }}">
+                <div class="publication-title">
+                    <a href="{{ pub.link_value }}" target="_blank">
+                        {{ pub.title }}
+                    </a>
+                </div>
+                <div class="">
+                    {{ pub.authors }},
+                    <span style="font-style: italic;">{{ pub.journal }}</span>
+
+                    {%- if pub.volume != '' %} {{ pub.volume }}{% endif -%}
+                    {%- if pub.pages != '' %}, {{ pub.pages }}{% endif -%}
+                    <span> ({{ pub.year }}).</span>
+                </div>
+            </li>
+            {% endfor %}
+        </ol>
+    </div>
+</section>
