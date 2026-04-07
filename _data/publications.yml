@@ -1,3 +1,28 @@
+- year: '2026'
+  month: January
+  title: Universal numerical convergence criteria for subhalo tidal evolution
+  authors: <strong>Barry T. Chiang</strong>, Frank C. van den Bosch, and <strong>Hsi-Yu
+    Schive</strong>
+  journal: Open J. Astrophys.
+  volume: '9'
+  number: ''
+  pages: arXiv:2510.26901
+  link_value: https://doi.org/10.48550/arXiv.2510.26901
+  type: article
+  tags:
+  - GAMER Applications
+- year: '2026'
+  month: April
+  title: Fuzzy dark matter simulations
+  authors: <strong>Hsi-Yu Schive</strong>
+  journal: Living Rev. Comput. Astrophys.
+  volume: '12'
+  number: '1'
+  pages: '1'
+  link_value: https://doi.org/10.48550/arXiv.2509.23231
+  type: article
+  tags:
+  - FDM
 - year: '2025'
   month: December
   title: 'libyt: an In Situ Interface Connecting Simulations with yt, Python, and
@@ -36,31 +61,6 @@
   number: ''
   pages: A34
   link_value: https://doi.org/10.1051/0004-6361/202556196
-  type: article
-  tags:
-  - FDM
-- year: '2025'
-  month: October
-  title: Universal numerical convergence criteria for subhalo tidal evolution
-  authors: <strong>Barry T. Chiang</strong>, Frank C. van den Bosch, and <strong>Hsi-Yu
-    Schive</strong>
-  journal: arXiv e-prints
-  volume: ''
-  number: ''
-  pages: arXiv:2510.26901
-  link_value: https://doi.org/10.48550/arXiv.2510.26901
-  type: article
-  tags:
-  - GAMER Applications
-- year: '2025'
-  month: September
-  title: Fuzzy dark matter simulations
-  authors: <strong>Hsi-Yu Schive</strong>
-  journal: arXiv e-prints
-  volume: ''
-  number: ''
-  pages: arXiv:2509.23231
-  link_value: https://doi.org/10.48550/arXiv.2509.23231
   type: article
   tags:
   - FDM
