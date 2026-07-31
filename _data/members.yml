@@ -373,3 +373,25 @@
   begin: 2026
   bio:
     - "I'm a PhD student in Theoretical Physics at NTU. My studies focus on  AGN jet physics and X-ray cavities, understanding their evolution, physical properties, and observational implications to better realize AGN feedback."
+
+- english_name: "Hiu-Fung Ko"
+  role: "undergraduate"
+  status: "current"
+  native_name: "高曉鋒"
+  image: "/assets/img/member/hiu-fung.webp"
+  email: "kiefer0655@gmail.com"
+  github: "kiefer0655"
+  begin: 2026
+  bio:
+    - "Currently exploring my research interests in astrophysics and gaining experience in numerical methods."
+
+- english_name: "Hsu, Yi Chen"
+  role: "master"
+  status: "current"
+  native_name: "徐一真"
+  image: "/assets/img/member/yichen.webp"
+  email: "r14244005@ntu.edu.tw"
+  github: "marvynthewall"
+  begin: 2026
+  bio:
+    - "Exploring the potential connections between black holes, fuzzy dark matter, and early Little Red Dots."
