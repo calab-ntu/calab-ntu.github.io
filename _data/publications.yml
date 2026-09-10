@@ -1,4 +1,17 @@
 - year: '2026'
+  month: mar
+  title: Cool-core Destruction in Merging Clusters with Active Galactic Nucleus Feedback
+    and Radiative Cooling
+  authors: Shuang-Shuang Chen, Hsiang-Yi Karen Yang, <strong>Hsi-Yu Schive</strong>,
+    <strong>Chun-Yen Chen</strong>, John ZuHone, and Massimo Gaspari
+  journal: The Astrophysical Journal
+  volume: '999'
+  number: '2'
+  pages: '197'
+  link_value: https://doi.org/10.3847/1538-4357/ae41c1
+  type: article
+  tags: []
+- year: '2026'
   month: may
   title: 'libyt: An In Situ Interface Connecting Simulations with yt, Python, and
     Jupyter Workflows'
@@ -138,20 +151,6 @@
   type: article
   tags:
   - Others
-- year: '2024'
-  month: December
-  title: Cool-Core Destruction in Merging Clusters with AGN Feedback and Radiative
-    Cooling
-  authors: Shuang-Shuang Chen, Hsiang-Yi Karen Yang, <strong>Hsi-Yu Schive</strong>,
-    John ZuHone, and Massimo Gaspari
-  journal: arXiv e-prints
-  volume: ''
-  number: ''
-  pages: arXiv:2412.13595
-  link_value: https://doi.org/10.48550/arXiv.2412.13595
-  type: article
-  tags:
-  - GAMER Applications
 - year: '2024'
   month: November
   title: A Systematic Search of Distant Superclusters with the Subaru Hyper Suprime-Cam
