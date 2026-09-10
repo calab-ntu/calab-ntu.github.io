@@ -34,11 +34,13 @@
 
 - english_name: Ui-Han Zhang
   role: "postdoc"
-  status: "current"
+  status: "previous"
   native_name: "張瑋瀚"
   image: "/assets/img/member/ui-han.webp"
   email: "zhanguihan@gmail.com"
   github: "zhanguihan"
+  begin: 2023
+  end: 2026
   bio:
     - "My research focuses on the theoretical dynamics of wave dark matter, complemented by a secondary specialization in numerical simulations for magnetohydrodynamics (MHD)."
 
@@ -237,8 +239,8 @@
   end: 2022
 
 - english_name: "Shin-Rong Tsai"
-  role: "master"
-  status: "previous"
+  role: "assistants/interns"
+  status: "current"
   native_name: "蔡欣蓉"
   image: "/assets/img/member/undecided.webp"
   email: "r08244002@ntu.edu.tw"
@@ -395,3 +397,13 @@
   begin: 2026
   bio:
     - "Exploring the potential connections between black holes, fuzzy dark matter, and early Little Red Dots."
+
+- english_name: "Sudarshan Neopane"
+  role: "postdoc"
+  status: "current"
+  image: "/assets/img/member/sudarshan.webp"
+  email: "sudarshanphy@gmail.com"
+  github: "sudarshanphy"
+  begin: 2026
+  bio:
+    - "Hi! I'm Sudarshan. I completed my Ph.D. in Physics at the University of Tennessee, Knoxville, where I worked on large-scale simulations of core-collapse supernovae and their long-term evolution. I am interested in large-scale simulations of astrophysical phenomena, the microphysics that shapes them, numerical methods for modeling these systems, and high-performance computing."
