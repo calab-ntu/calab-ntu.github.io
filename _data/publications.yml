@@ -1,4 +1,17 @@
 - year: '2026'
+  month: nov
+  title: 3D MHD Simulations of Rotating and Magnetized Core-collapse Supernovae with
+    the GPU-Accelerated GAMER Code
+  authors: <strong>He-Feng Hsieh</strong>, Inhyeok Song, <strong>Hsi-Yu Schive</strong>,
+    and Kuo-Chuan Pan
+  journal: The Astrophysical Journal
+  volume: '1012'
+  number: '1'
+  pages: '143'
+  link_value: https://doi.org/10.3847/1538-4357/aeb7e9
+  type: article
+  tags: []
+- year: '2026'
   month: mar
   title: Cool-core Destruction in Merging Clusters with Active Galactic Nucleus Feedback
     and Radiative Cooling
